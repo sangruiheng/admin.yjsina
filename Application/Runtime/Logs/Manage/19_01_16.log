@@ -1,0 +1,1368 @@
+[ 2019-01-16T10:37:50+08:00 ] 127.0.0.1 /manage.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000155s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+
+[ 2019-01-16T10:37:50+08:00 ] 127.0.0.1 /manage.php/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000218s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000502s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028831s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029087s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009416s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009687s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000244s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000466s ]
+
+[ 2019-01-16T10:37:50+08:00 ] 127.0.0.1 /manage.php/Login/verCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000145s ]
+
+[ 2019-01-16T10:38:00+08:00 ] 127.0.0.1 /manage.php/Login/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+
+[ 2019-01-16T10:38:00+08:00 ] 127.0.0.1 /manage.php/Login/verCode.html?0.5860459401147002
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000099s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000241s ]
+
+[ 2019-01-16T10:38:06+08:00 ] 127.0.0.1 /manage.php/Login/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `icpnt_adminuser` [ RunTime:0.5540s ]
+SQL: SELECT `id`,`groupID` FROM `icpnt_adminuser` WHERE `username` = 'admin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `icpnt_adminuser` SET `nextLoginIp`='127.0.0.1',`nextLoginTime`='1547606285',`lastLoginIp`='127.0.0.1',`lastLoginTime`='1547606285' WHERE `id` = 1 [ RunTime:0.8663s ]
+
+[ 2019-01-16T10:38:07+08:00 ] 127.0.0.1 /manage.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000240s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.1361s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0751s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0204s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+NOTIC: [8] Undefined index: p /var/www/html/jiaju2/Application/Runtime/Cache/Manage/737aa8fc5877d411a50443dade831133.php 第 35 行.
+NOTIC: [8] Undefined index: keyWord /var/www/html/jiaju2/Application/Runtime/Cache/Manage/737aa8fc5877d411a50443dade831133.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020796s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000109s ]
+
+[ 2019-01-16T10:38:07+08:00 ] 127.0.0.1 /manage.php/Index/welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000180s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0004s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000842s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000920s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000095s ]
+
+[ 2019-01-16T10:38:08+08:00 ] 127.0.0.1 /manage.php/Index/unreadOrderMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000159s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0011s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `icpnt_order` [ RunTime:0.0723s ]
+SQL: SHOW COLUMNS FROM `icpnt_ordermessage` [ RunTime:0.0405s ]
+SQL: SELECT * FROM `icpnt_ordermessage`  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `icpnt_order` WHERE `id` NOT IN ('808','902','1038','1039','1040','1041','1042','1043','1046','1056','805','839','872','875','877','960','962','963','964','965','966','967','1034','1035','1044','1045','1048','1407') AND (  `order_status` = 2 OR `Deposit_type` = 1 ) LIMIT 1   [ RunTime:0.0211s ]
+
+[ 2019-01-16T10:38:08+08:00 ] 127.0.0.1 /manage.php/Common/getModuleList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000237s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0007s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = '52' AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0005s ]
+
+[ 2019-01-16T10:38:09+08:00 ] 127.0.0.1 /manage.php/Business/businessList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000128s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0017s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0016s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: keyWord /var/www/html/jiaju2/Application/Manage/Controller/BusinessController.class.php 第 13 行.
+NOTIC: [2] Missing argument 3 for Manage\Controller\CommonController::getDlist(), called in /var/www/html/jiaju2/Application/Manage/Controller/BusinessController.class.php on line 13 and defined /var/www/html/jiaju2/Application/Manage/Controller/CommonController.class.php 第 452 行.
+NOTIC: [2] Missing argument 4 for Manage\Controller\CommonController::getDlist(), called in /var/www/html/jiaju2/Application/Manage/Controller/BusinessController.class.php on line 13 and defined /var/www/html/jiaju2/Application/Manage/Controller/CommonController.class.php 第 452 行.
+NOTIC: [2] Missing argument 5 for Manage\Controller\CommonController::getDlist(), called in /var/www/html/jiaju2/Application/Manage/Controller/BusinessController.class.php on line 13 and defined /var/www/html/jiaju2/Application/Manage/Controller/CommonController.class.php 第 452 行.
+SQL: SHOW COLUMNS FROM `icpnt_business` [ RunTime:0.0263s ]
+NOTIC: [8] Undefined index: p /var/www/html/jiaju2/Application/Manage/Controller/CommonController.class.php 第 466 行.
+NOTIC: [8] Undefined variable: map /var/www/html/jiaju2/Application/Manage/Controller/CommonController.class.php 第 470 行.
+SQL: SELECT * FROM `icpnt_business` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: map /var/www/html/jiaju2/Application/Manage/Controller/CommonController.class.php 第 479 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `icpnt_business` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: map /var/www/html/jiaju2/Application/Manage/Controller/CommonController.class.php 第 481 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/jiaju2/Application/Manage/Controller/CommonController.class.php 第 481 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000337s ]
+NOTIC: [8] Undefined index: p /var/www/html/jiaju2/Application/Runtime/Cache/Manage/1199a8cf01d5254e3045747bc041579f.php 第 35 行.
+NOTIC: [8] Undefined index: keyWord /var/www/html/jiaju2/Application/Runtime/Cache/Manage/1199a8cf01d5254e3045747bc041579f.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012271s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012532s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000088s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000182s ]
+
+[ 2019-01-16T10:38:09+08:00 ] 127.0.0.1 /manage.php/Index/unreadOrderMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0014s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0013s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `icpnt_order` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `icpnt_ordermessage` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `icpnt_ordermessage`  [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `icpnt_order` WHERE `id` NOT IN ('808','902','1038','1039','1040','1041','1042','1043','1046','1056','805','839','872','875','877','960','962','963','964','965','966','967','1034','1035','1044','1045','1048','1407') AND (  `order_status` = 2 OR `Deposit_type` = 1 ) LIMIT 1   [ RunTime:0.0017s ]
+
+[ 2019-01-16T10:38:10+08:00 ] 127.0.0.1 /manage.php/Index/unreadOrderMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000957s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0012s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0015s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `icpnt_order` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `icpnt_ordermessage` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `icpnt_ordermessage`  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `icpnt_order` WHERE `id` NOT IN ('808','902','1038','1039','1040','1041','1042','1043','1046','1056','805','839','872','875','877','960','962','963','964','965','966','967','1034','1035','1044','1045','1048','1407') AND (  `order_status` = 2 OR `Deposit_type` = 1 ) LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2019-01-16T10:38:11+08:00 ] 127.0.0.1 /manage.php/Product/productList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0011s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyWord /var/www/html/jiaju2/Application/Manage/Controller/ProductController.class.php 第 16 行.
+NOTIC: [8] Undefined index: business_id /var/www/html/jiaju2/Application/Manage/Controller/ProductController.class.php 第 23 行.
+NOTIC: [8] Undefined index: p /var/www/html/jiaju2/Application/Manage/Controller/ProductController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `icpnt_product` [ RunTime:0.0457s ]
+SQL: SELECT * FROM `icpnt_product` WHERE `product_type` <> 3 ORDER BY id desc LIMIT 0,10   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `icpnt_navcategory` [ RunTime:0.0235s ]
+SQL: SELECT * FROM `icpnt_navcategory` WHERE ( 1=1 AND id='91' ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `icpnt_productimage` [ RunTime:0.0237s ]
+SQL: SELECT * FROM `icpnt_productimage` WHERE ( 1=1 AND product_id='564' )  [ RunTime:0.0249s ]
+SQL: SHOW COLUMNS FROM `icpnt_business` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `icpnt_business` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `icpnt_producttype1` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `icpnt_producttype1` WHERE ( 1=1 AND product_id='564' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `icpnt_navcategory` WHERE ( 1=1 AND id='59' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `icpnt_productimage` WHERE ( 1=1 AND product_id='563' )  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `icpnt_business` WHERE ( 1=1 AND id='42' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `icpnt_producttype1` WHERE ( 1=1 AND product_id='563' )  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `icpnt_productattr1` [ RunTime:0.0172s ]
+SQL: SELECT * FROM `icpnt_productattr1` WHERE ( 1=1 AND attrtype_id='477' )  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `icpnt_navcategory` WHERE ( 1=1 AND id='59' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `icpnt_productimage` WHERE ( 1=1 AND product_id='562' )  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `icpnt_business` WHERE ( 1=1 AND id='42' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `icpnt_producttype1` WHERE ( 1=1 AND product_id='562' )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `icpnt_productattr1` WHERE ( 1=1 AND attrtype_id='476' )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `icpnt_navcategory` WHERE ( 1=1 AND id='59' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `icpnt_productimage` WHERE ( 1=1 AND product_id='561' )  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `icpnt_business` WHERE ( 1=1 AND id='42' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `icpnt_producttype1` WHERE ( 1=1 AND product_id='561' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `icpnt_productattr1` WHERE ( 1=1 AND attrtype_id='475' )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `icpnt_navcategory` WHERE ( 1=1 AND id='59' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `icpnt_productimage` WHERE ( 1=1 AND product_id='560' )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `icpnt_business` WHERE ( 1=1 AND id='42' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `icpnt_producttype1` WHERE ( 1=1 AND product_id='560' )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `icpnt_productattr1` WHERE ( 1=1 AND attrtype_id='474' )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `icpnt_navcategory` WHERE ( 1=1 AND id='59' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `icpnt_productimage` WHERE ( 1=1 AND product_id='559' )  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `icpnt_business` WHERE ( 1=1 AND id='42' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `icpnt_producttype1` WHERE ( 1=1 AND product_id='559' )  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `icpnt_productattr1` WHERE ( 1=1 AND attrtype_id='473' )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `icpnt_navcategory` WHERE ( 1=1 AND id='59' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `icpnt_productimage` WHERE ( 1=1 AND product_id='558' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `icpnt_business` WHERE ( 1=1 AND id='42' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `icpnt_producttype1` WHERE ( 1=1 AND product_id='558' )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `icpnt_productattr1` WHERE ( 1=1 AND attrtype_id='472' )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `icpnt_navcategory` WHERE ( 1=1 AND id='59' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `icpnt_productimage` WHERE ( 1=1 AND product_id='557' )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `icpnt_business` WHERE ( 1=1 AND id='42' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `icpnt_producttype1` WHERE ( 1=1 AND product_id='557' )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `icpnt_productattr1` WHERE ( 1=1 AND attrtype_id='471' )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `icpnt_navcategory` WHERE ( 1=1 AND id='59' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `icpnt_productimage` WHERE ( 1=1 AND product_id='555' )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `icpnt_business` WHERE ( 1=1 AND id='42' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `icpnt_producttype1` WHERE ( 1=1 AND product_id='555' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `icpnt_productattr1` WHERE ( 1=1 AND attrtype_id='470' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `icpnt_navcategory` WHERE ( 1=1 AND id='73' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `icpnt_productimage` WHERE ( 1=1 AND product_id='540' )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `icpnt_business` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `icpnt_producttype1` WHERE ( 1=1 AND product_id='540' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `icpnt_productattr1` WHERE ( 1=1 AND attrtype_id='438' )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `icpnt_product` WHERE `product_type` <> 3 LIMIT 1   [ RunTime:0.1291s ]
+NOTIC: [2] urlencode() expects parameter 1 to be string, array given /var/www/html/jiaju2/Application/Manage/Controller/ProductController.class.php 第 41 行.
+NOTIC: [8] Undefined variable: page /var/www/html/jiaju2/Application/Manage/Controller/ProductController.class.php 第 41 行.
+NOTIC: [2] Creating default object from empty value /var/www/html/jiaju2/Application/Manage/Controller/ProductController.class.php 第 41 行.
+NOTIC: [8] Undefined property: stdClass::$parameter /var/www/html/jiaju2/Application/Manage/Controller/ProductController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `icpnt_business` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `icpnt_business`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000314s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000593s ]
+NOTIC: [8] Undefined index: p /var/www/html/jiaju2/Application/Runtime/Cache/Manage/5375cd8e5d94d021a68b7a1595c2e07d.php 第 35 行.
+NOTIC: [8] Undefined index: keyWord /var/www/html/jiaju2/Application/Runtime/Cache/Manage/5375cd8e5d94d021a68b7a1595c2e07d.php 第 36 行.
+NOTIC: [8] Undefined index: keyWord /var/www/html/jiaju2/Application/Runtime/Cache/Manage/5375cd8e5d94d021a68b7a1595c2e07d.php 第 66 行.
+NOTIC: [8] Undefined index: business_id /var/www/html/jiaju2/Application/Runtime/Cache/Manage/5375cd8e5d94d021a68b7a1595c2e07d.php 第 70 行.
+NOTIC: [8] Undefined index: business_id /var/www/html/jiaju2/Application/Runtime/Cache/Manage/5375cd8e5d94d021a68b7a1595c2e07d.php 第 70 行.
+NOTIC: [8] Undefined index: business_id /var/www/html/jiaju2/Application/Runtime/Cache/Manage/5375cd8e5d94d021a68b7a1595c2e07d.php 第 70 行.
+NOTIC: [8] Undefined index: business_id /var/www/html/jiaju2/Application/Runtime/Cache/Manage/5375cd8e5d94d021a68b7a1595c2e07d.php 第 70 行.
+NOTIC: [8] Undefined index: business_id /var/www/html/jiaju2/Application/Runtime/Cache/Manage/5375cd8e5d94d021a68b7a1595c2e07d.php 第 70 行.
+NOTIC: [8] Undefined index: business_id /var/www/html/jiaju2/Application/Runtime/Cache/Manage/5375cd8e5d94d021a68b7a1595c2e07d.php 第 70 行.
+NOTIC: [8] Undefined index: business_id /var/www/html/jiaju2/Application/Runtime/Cache/Manage/5375cd8e5d94d021a68b7a1595c2e07d.php 第 70 行.
+NOTIC: [8] Undefined index: business_id /var/www/html/jiaju2/Application/Runtime/Cache/Manage/5375cd8e5d94d021a68b7a1595c2e07d.php 第 70 行.
+NOTIC: [8] Undefined index: business_id /var/www/html/jiaju2/Application/Runtime/Cache/Manage/5375cd8e5d94d021a68b7a1595c2e07d.php 第 70 行.
+NOTIC: [8] Undefined index: business_id /var/www/html/jiaju2/Application/Runtime/Cache/Manage/5375cd8e5d94d021a68b7a1595c2e07d.php 第 70 行.
+NOTIC: [8] Undefined index: business_id /var/www/html/jiaju2/Application/Runtime/Cache/Manage/5375cd8e5d94d021a68b7a1595c2e07d.php 第 70 行.
+NOTIC: [8] Undefined index: business_id /var/www/html/jiaju2/Application/Runtime/Cache/Manage/5375cd8e5d94d021a68b7a1595c2e07d.php 第 70 行.
+NOTIC: [8] Undefined index: business_id /var/www/html/jiaju2/Application/Runtime/Cache/Manage/5375cd8e5d94d021a68b7a1595c2e07d.php 第 70 行.
+NOTIC: [8] Undefined index: business_id /var/www/html/jiaju2/Application/Runtime/Cache/Manage/5375cd8e5d94d021a68b7a1595c2e07d.php 第 70 行.
+NOTIC: [8] Undefined index: business_id /var/www/html/jiaju2/Application/Runtime/Cache/Manage/5375cd8e5d94d021a68b7a1595c2e07d.php 第 70 行.
+NOTIC: [8] Undefined index: business_id /var/www/html/jiaju2/Application/Runtime/Cache/Manage/5375cd8e5d94d021a68b7a1595c2e07d.php 第 70 行.
+NOTIC: [8] Undefined index: business_id /var/www/html/jiaju2/Application/Runtime/Cache/Manage/5375cd8e5d94d021a68b7a1595c2e07d.php 第 70 行.
+NOTIC: [8] Undefined index: business_id /var/www/html/jiaju2/Application/Runtime/Cache/Manage/5375cd8e5d94d021a68b7a1595c2e07d.php 第 70 行.
+NOTIC: [8] Undefined index: business_id /var/www/html/jiaju2/Application/Runtime/Cache/Manage/5375cd8e5d94d021a68b7a1595c2e07d.php 第 70 行.
+NOTIC: [8] Undefined index: business_id /var/www/html/jiaju2/Application/Runtime/Cache/Manage/5375cd8e5d94d021a68b7a1595c2e07d.php 第 70 行.
+NOTIC: [8] Undefined index: business_id /var/www/html/jiaju2/Application/Runtime/Cache/Manage/5375cd8e5d94d021a68b7a1595c2e07d.php 第 70 行.
+NOTIC: [8] Undefined index: business_id /var/www/html/jiaju2/Application/Runtime/Cache/Manage/5375cd8e5d94d021a68b7a1595c2e07d.php 第 70 行.
+NOTIC: [8] Undefined index: business_id /var/www/html/jiaju2/Application/Runtime/Cache/Manage/5375cd8e5d94d021a68b7a1595c2e07d.php 第 70 行.
+NOTIC: [8] Undefined index: business_id /var/www/html/jiaju2/Application/Runtime/Cache/Manage/5375cd8e5d94d021a68b7a1595c2e07d.php 第 70 行.
+NOTIC: [8] Undefined index: business_id /var/www/html/jiaju2/Application/Runtime/Cache/Manage/5375cd8e5d94d021a68b7a1595c2e07d.php 第 70 行.
+NOTIC: [8] Undefined index: business_id /var/www/html/jiaju2/Application/Runtime/Cache/Manage/5375cd8e5d94d021a68b7a1595c2e07d.php 第 70 行.
+NOTIC: [8] Undefined index: business_id /var/www/html/jiaju2/Application/Runtime/Cache/Manage/5375cd8e5d94d021a68b7a1595c2e07d.php 第 70 行.
+NOTIC: [8] Undefined index: business_id /var/www/html/jiaju2/Application/Runtime/Cache/Manage/5375cd8e5d94d021a68b7a1595c2e07d.php 第 70 行.
+NOTIC: [8] Undefined index: business_id /var/www/html/jiaju2/Application/Runtime/Cache/Manage/5375cd8e5d94d021a68b7a1595c2e07d.php 第 70 行.
+NOTIC: [8] Undefined index: business_id /var/www/html/jiaju2/Application/Runtime/Cache/Manage/5375cd8e5d94d021a68b7a1595c2e07d.php 第 70 行.
+NOTIC: [8] Undefined index: business_id /var/www/html/jiaju2/Application/Runtime/Cache/Manage/5375cd8e5d94d021a68b7a1595c2e07d.php 第 70 行.
+NOTIC: [8] Undefined index: business_id /var/www/html/jiaju2/Application/Runtime/Cache/Manage/5375cd8e5d94d021a68b7a1595c2e07d.php 第 70 行.
+NOTIC: [8] Undefined index: business_id /var/www/html/jiaju2/Application/Runtime/Cache/Manage/5375cd8e5d94d021a68b7a1595c2e07d.php 第 70 行.
+NOTIC: [8] Undefined index: business_id /var/www/html/jiaju2/Application/Runtime/Cache/Manage/5375cd8e5d94d021a68b7a1595c2e07d.php 第 70 行.
+NOTIC: [8] Undefined index: business_id /var/www/html/jiaju2/Application/Runtime/Cache/Manage/5375cd8e5d94d021a68b7a1595c2e07d.php 第 70 行.
+NOTIC: [8] Undefined index: business_id /var/www/html/jiaju2/Application/Runtime/Cache/Manage/5375cd8e5d94d021a68b7a1595c2e07d.php 第 74 行.
+NOTIC: [8] Undefined index: product_stock /var/www/html/jiaju2/Application/Runtime/Cache/Manage/5375cd8e5d94d021a68b7a1595c2e07d.php 第 103 行.
+NOTIC: [8] Undefined index: product_freight /var/www/html/jiaju2/Application/Runtime/Cache/Manage/5375cd8e5d94d021a68b7a1595c2e07d.php 第 104 行.
+NOTIC: [8] Undefined index: product_stock /var/www/html/jiaju2/Application/Runtime/Cache/Manage/5375cd8e5d94d021a68b7a1595c2e07d.php 第 103 行.
+NOTIC: [8] Undefined index: product_freight /var/www/html/jiaju2/Application/Runtime/Cache/Manage/5375cd8e5d94d021a68b7a1595c2e07d.php 第 104 行.
+NOTIC: [8] Undefined index: product_stock /var/www/html/jiaju2/Application/Runtime/Cache/Manage/5375cd8e5d94d021a68b7a1595c2e07d.php 第 103 行.
+NOTIC: [8] Undefined index: product_freight /var/www/html/jiaju2/Application/Runtime/Cache/Manage/5375cd8e5d94d021a68b7a1595c2e07d.php 第 104 行.
+NOTIC: [8] Undefined index: product_stock /var/www/html/jiaju2/Application/Runtime/Cache/Manage/5375cd8e5d94d021a68b7a1595c2e07d.php 第 103 行.
+NOTIC: [8] Undefined index: product_freight /var/www/html/jiaju2/Application/Runtime/Cache/Manage/5375cd8e5d94d021a68b7a1595c2e07d.php 第 104 行.
+NOTIC: [8] Undefined index: product_stock /var/www/html/jiaju2/Application/Runtime/Cache/Manage/5375cd8e5d94d021a68b7a1595c2e07d.php 第 103 行.
+NOTIC: [8] Undefined index: product_freight /var/www/html/jiaju2/Application/Runtime/Cache/Manage/5375cd8e5d94d021a68b7a1595c2e07d.php 第 104 行.
+NOTIC: [8] Undefined index: product_stock /var/www/html/jiaju2/Application/Runtime/Cache/Manage/5375cd8e5d94d021a68b7a1595c2e07d.php 第 103 行.
+NOTIC: [8] Undefined index: product_freight /var/www/html/jiaju2/Application/Runtime/Cache/Manage/5375cd8e5d94d021a68b7a1595c2e07d.php 第 104 行.
+NOTIC: [8] Undefined index: product_stock /var/www/html/jiaju2/Application/Runtime/Cache/Manage/5375cd8e5d94d021a68b7a1595c2e07d.php 第 103 行.
+NOTIC: [8] Undefined index: product_freight /var/www/html/jiaju2/Application/Runtime/Cache/Manage/5375cd8e5d94d021a68b7a1595c2e07d.php 第 104 行.
+NOTIC: [8] Undefined index: product_stock /var/www/html/jiaju2/Application/Runtime/Cache/Manage/5375cd8e5d94d021a68b7a1595c2e07d.php 第 103 行.
+NOTIC: [8] Undefined index: product_freight /var/www/html/jiaju2/Application/Runtime/Cache/Manage/5375cd8e5d94d021a68b7a1595c2e07d.php 第 104 行.
+NOTIC: [8] Undefined index: product_stock /var/www/html/jiaju2/Application/Runtime/Cache/Manage/5375cd8e5d94d021a68b7a1595c2e07d.php 第 103 行.
+NOTIC: [8] Undefined index: product_freight /var/www/html/jiaju2/Application/Runtime/Cache/Manage/5375cd8e5d94d021a68b7a1595c2e07d.php 第 104 行.
+NOTIC: [8] Undefined index: product_stock /var/www/html/jiaju2/Application/Runtime/Cache/Manage/5375cd8e5d94d021a68b7a1595c2e07d.php 第 103 行.
+NOTIC: [8] Undefined index: product_freight /var/www/html/jiaju2/Application/Runtime/Cache/Manage/5375cd8e5d94d021a68b7a1595c2e07d.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055192s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055417s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000170s ]
+
+[ 2019-01-16T10:38:11+08:00 ] 127.0.0.1 /manage.php/Index/unreadOrderMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000310s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0013s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `icpnt_order` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `icpnt_ordermessage` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `icpnt_ordermessage`  [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `icpnt_order` WHERE `id` NOT IN ('808','902','1038','1039','1040','1041','1042','1043','1046','1056','805','839','872','875','877','960','962','963','964','965','966','967','1034','1035','1044','1045','1048','1407') AND (  `order_status` = 2 OR `Deposit_type` = 1 ) LIMIT 1   [ RunTime:0.0015s ]
+
+[ 2019-01-16T10:38:12+08:00 ] 127.0.0.1 /manage.php/Product/addProduct
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0011s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0011s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `icpnt_product` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: productPage /var/www/html/jiaju2/Application/Manage/Controller/ProductController.class.php 第 238 行.
+NOTIC: [8] Undefined index: keyWord /var/www/html/jiaju2/Application/Manage/Controller/ProductController.class.php 第 239 行.
+SQL: SHOW COLUMNS FROM `icpnt_navcategory` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `icpnt_navcategory`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `icpnt_productserve` [ RunTime:0.0357s ]
+SQL: SELECT * FROM `icpnt_productserve`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `icpnt_producttype` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `icpnt_producttype`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `icpnt_business` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `icpnt_business`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000698s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000932s ]
+NOTIC: [8] Undefined index: p /var/www/html/jiaju2/Application/Runtime/Cache/Manage/fdf89bc691a88684c5849827a3962ff6.php 第 37 行.
+NOTIC: [8] Undefined index: keyWord /var/www/html/jiaju2/Application/Runtime/Cache/Manage/fdf89bc691a88684c5849827a3962ff6.php 第 38 行.
+NOTIC: [8] Undefined index: id /var/www/html/jiaju2/Application/Runtime/Cache/Manage/fdf89bc691a88684c5849827a3962ff6.php 第 207 行.
+NOTIC: [8] Undefined index: id /var/www/html/jiaju2/Application/Runtime/Cache/Manage/fdf89bc691a88684c5849827a3962ff6.php 第 254 行.
+NOTIC: [8] Undefined index: id /var/www/html/jiaju2/Application/Runtime/Cache/Manage/fdf89bc691a88684c5849827a3962ff6.php 第 271 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027141s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027361s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000089s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000086s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000231s ]
+
+[ 2019-01-16T10:38:12+08:00 ] 127.0.0.1 /manage.php/Index/unreadOrderMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000098s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0004s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0011s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `icpnt_order` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `icpnt_ordermessage` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `icpnt_ordermessage`  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `icpnt_order` WHERE `id` NOT IN ('808','902','1038','1039','1040','1041','1042','1043','1046','1056','805','839','872','875','877','960','962','963','964','965','966','967','1034','1035','1044','1045','1048','1407') AND (  `order_status` = 2 OR `Deposit_type` = 1 ) LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2019-01-16T10:38:13+08:00 ] 127.0.0.1 /manage.php/Index/unreadOrderMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000178s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0006s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `icpnt_order` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `icpnt_ordermessage` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `icpnt_ordermessage`  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `icpnt_order` WHERE `id` NOT IN ('808','902','1038','1039','1040','1041','1042','1043','1046','1056','805','839','872','875','877','960','962','963','964','965','966','967','1034','1035','1044','1045','1048','1407') AND (  `order_status` = 2 OR `Deposit_type` = 1 ) LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2019-01-16T10:38:14+08:00 ] 127.0.0.1 /manage.php/Index/unreadOrderMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000093s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0005s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `icpnt_order` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `icpnt_ordermessage` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `icpnt_ordermessage`  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `icpnt_order` WHERE `id` NOT IN ('808','902','1038','1039','1040','1041','1042','1043','1046','1056','805','839','872','875','877','960','962','963','964','965','966','967','1034','1035','1044','1045','1048','1407') AND (  `order_status` = 2 OR `Deposit_type` = 1 ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2019-01-16T10:38:15+08:00 ] 127.0.0.1 /manage.php/Index/unreadOrderMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0012s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `icpnt_order` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `icpnt_ordermessage` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `icpnt_ordermessage`  [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `icpnt_order` WHERE `id` NOT IN ('808','902','1038','1039','1040','1041','1042','1043','1046','1056','805','839','872','875','877','960','962','963','964','965','966','967','1034','1035','1044','1045','1048','1407') AND (  `order_status` = 2 OR `Deposit_type` = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-01-16T10:38:16+08:00 ] 127.0.0.1 /manage.php/Index/unreadOrderMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0012s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0011s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `icpnt_order` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `icpnt_ordermessage` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `icpnt_ordermessage`  [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `icpnt_order` WHERE `id` NOT IN ('808','902','1038','1039','1040','1041','1042','1043','1046','1056','805','839','872','875','877','960','962','963','964','965','966','967','1034','1035','1044','1045','1048','1407') AND (  `order_status` = 2 OR `Deposit_type` = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-01-16T10:38:17+08:00 ] 127.0.0.1 /manage.php/Index/unreadOrderMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000311s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0012s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `icpnt_order` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `icpnt_ordermessage` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `icpnt_ordermessage`  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `icpnt_order` WHERE `id` NOT IN ('808','902','1038','1039','1040','1041','1042','1043','1046','1056','805','839','872','875','877','960','962','963','964','965','966','967','1034','1035','1044','1045','1048','1407') AND (  `order_status` = 2 OR `Deposit_type` = 1 ) LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2019-01-16T10:38:18+08:00 ] 127.0.0.1 /manage.php/Index/unreadOrderMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000093s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0004s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `icpnt_order` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `icpnt_ordermessage` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `icpnt_ordermessage`  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `icpnt_order` WHERE `id` NOT IN ('808','902','1038','1039','1040','1041','1042','1043','1046','1056','805','839','872','875','877','960','962','963','964','965','966','967','1034','1035','1044','1045','1048','1407') AND (  `order_status` = 2 OR `Deposit_type` = 1 ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-01-16T10:38:19+08:00 ] 127.0.0.1 /manage.php/Index/unreadOrderMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0009s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0009s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `icpnt_order` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `icpnt_ordermessage` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `icpnt_ordermessage`  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `icpnt_order` WHERE `id` NOT IN ('808','902','1038','1039','1040','1041','1042','1043','1046','1056','805','839','872','875','877','960','962','963','964','965','966','967','1034','1035','1044','1045','1048','1407') AND (  `order_status` = 2 OR `Deposit_type` = 1 ) LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2019-01-16T10:38:20+08:00 ] 127.0.0.1 /manage.php/Index/unreadOrderMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0011s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `icpnt_order` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `icpnt_ordermessage` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `icpnt_ordermessage`  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `icpnt_order` WHERE `id` NOT IN ('808','902','1038','1039','1040','1041','1042','1043','1046','1056','805','839','872','875','877','960','962','963','964','965','966','967','1034','1035','1044','1045','1048','1407') AND (  `order_status` = 2 OR `Deposit_type` = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-01-16T10:38:21+08:00 ] 127.0.0.1 /manage.php/Index/unreadOrderMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0010s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0009s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `icpnt_order` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `icpnt_ordermessage` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `icpnt_ordermessage`  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `icpnt_order` WHERE `id` NOT IN ('808','902','1038','1039','1040','1041','1042','1043','1046','1056','805','839','872','875','877','960','962','963','964','965','966','967','1034','1035','1044','1045','1048','1407') AND (  `order_status` = 2 OR `Deposit_type` = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-01-16T10:38:22+08:00 ] 127.0.0.1 /manage.php/Index/unreadOrderMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000163s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0006s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `icpnt_order` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `icpnt_ordermessage` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `icpnt_ordermessage`  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `icpnt_order` WHERE `id` NOT IN ('808','902','1038','1039','1040','1041','1042','1043','1046','1056','805','839','872','875','877','960','962','963','964','965','966','967','1034','1035','1044','1045','1048','1407') AND (  `order_status` = 2 OR `Deposit_type` = 1 ) LIMIT 1   [ RunTime:0.0015s ]
+
+[ 2019-01-16T10:38:23+08:00 ] 127.0.0.1 /manage.php/Index/unreadOrderMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0008s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0009s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `icpnt_order` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `icpnt_ordermessage` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `icpnt_ordermessage`  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `icpnt_order` WHERE `id` NOT IN ('808','902','1038','1039','1040','1041','1042','1043','1046','1056','805','839','872','875','877','960','962','963','964','965','966','967','1034','1035','1044','1045','1048','1407') AND (  `order_status` = 2 OR `Deposit_type` = 1 ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2019-01-16T10:38:24+08:00 ] 127.0.0.1 /manage.php/Index/unreadOrderMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000124s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000297s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0004s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `icpnt_order` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `icpnt_ordermessage` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `icpnt_ordermessage`  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `icpnt_order` WHERE `id` NOT IN ('808','902','1038','1039','1040','1041','1042','1043','1046','1056','805','839','872','875','877','960','962','963','964','965','966','967','1034','1035','1044','1045','1048','1407') AND (  `order_status` = 2 OR `Deposit_type` = 1 ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2019-01-16T10:38:25+08:00 ] 127.0.0.1 /manage.php/Index/unreadOrderMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000298s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0009s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `icpnt_order` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `icpnt_ordermessage` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `icpnt_ordermessage`  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `icpnt_order` WHERE `id` NOT IN ('808','902','1038','1039','1040','1041','1042','1043','1046','1056','805','839','872','875','877','960','962','963','964','965','966','967','1034','1035','1044','1045','1048','1407') AND (  `order_status` = 2 OR `Deposit_type` = 1 ) LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2019-01-16T10:38:26+08:00 ] 127.0.0.1 /manage.php/Index/unreadOrderMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000315s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0010s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `icpnt_order` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `icpnt_ordermessage` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `icpnt_ordermessage`  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `icpnt_order` WHERE `id` NOT IN ('808','902','1038','1039','1040','1041','1042','1043','1046','1056','805','839','872','875','877','960','962','963','964','965','966','967','1034','1035','1044','1045','1048','1407') AND (  `order_status` = 2 OR `Deposit_type` = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-01-16T10:38:27+08:00 ] 127.0.0.1 /manage.php/Index/unreadOrderMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000291s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0010s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0009s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `icpnt_order` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `icpnt_ordermessage` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `icpnt_ordermessage`  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `icpnt_order` WHERE `id` NOT IN ('808','902','1038','1039','1040','1041','1042','1043','1046','1056','805','839','872','875','877','960','962','963','964','965','966','967','1034','1035','1044','1045','1048','1407') AND (  `order_status` = 2 OR `Deposit_type` = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-01-16T10:38:28+08:00 ] 127.0.0.1 /manage.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000111s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0003s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+NOTIC: [8] Undefined index: p /var/www/html/jiaju2/Application/Runtime/Cache/Manage/737aa8fc5877d411a50443dade831133.php 第 35 行.
+NOTIC: [8] Undefined index: keyWord /var/www/html/jiaju2/Application/Runtime/Cache/Manage/737aa8fc5877d411a50443dade831133.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005049s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005130s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000114s ]
+
+[ 2019-01-16T10:38:28+08:00 ] 127.0.0.1 /manage.php/Index/welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000140s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0004s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000574s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000652s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000108s ]
+
+[ 2019-01-16T10:38:29+08:00 ] 127.0.0.1 /manage.php/Index/unreadOrderMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000093s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0005s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `icpnt_order` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `icpnt_ordermessage` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `icpnt_ordermessage`  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `icpnt_order` WHERE `id` NOT IN ('808','902','1038','1039','1040','1041','1042','1043','1046','1056','805','839','872','875','877','960','962','963','964','965','966','967','1034','1035','1044','1045','1048','1407') AND (  `order_status` = 2 OR `Deposit_type` = 1 ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-01-16T10:38:30+08:00 ] 127.0.0.1 /manage.php/Index/unreadOrderMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000183s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0006s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `icpnt_order` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `icpnt_ordermessage` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `icpnt_ordermessage`  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `icpnt_order` WHERE `id` NOT IN ('808','902','1038','1039','1040','1041','1042','1043','1046','1056','805','839','872','875','877','960','962','963','964','965','966','967','1034','1035','1044','1045','1048','1407') AND (  `order_status` = 2 OR `Deposit_type` = 1 ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-01-16T10:38:31+08:00 ] 127.0.0.1 /manage.php/Index/unreadOrderMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000321s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0010s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `icpnt_order` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `icpnt_ordermessage` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `icpnt_ordermessage`  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `icpnt_order` WHERE `id` NOT IN ('808','902','1038','1039','1040','1041','1042','1043','1046','1056','805','839','872','875','877','960','962','963','964','965','966','967','1034','1035','1044','1045','1048','1407') AND (  `order_status` = 2 OR `Deposit_type` = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-01-16T10:38:32+08:00 ] 127.0.0.1 /manage.php/Index/unreadOrderMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000142s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0005s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `icpnt_order` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `icpnt_ordermessage` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `icpnt_ordermessage`  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `icpnt_order` WHERE `id` NOT IN ('808','902','1038','1039','1040','1041','1042','1043','1046','1056','805','839','872','875','877','960','962','963','964','965','966','967','1034','1035','1044','1045','1048','1407') AND (  `order_status` = 2 OR `Deposit_type` = 1 ) LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2019-01-16T10:38:33+08:00 ] 127.0.0.1 /manage.php/Index/unreadOrderMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000189s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0006s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `icpnt_order` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `icpnt_ordermessage` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `icpnt_ordermessage`  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `icpnt_order` WHERE `id` NOT IN ('808','902','1038','1039','1040','1041','1042','1043','1046','1056','805','839','872','875','877','960','962','963','964','965','966','967','1034','1035','1044','1045','1048','1407') AND (  `order_status` = 2 OR `Deposit_type` = 1 ) LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2019-01-16T10:38:34+08:00 ] 127.0.0.1 /manage.php/Index/unreadOrderMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000156s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0005s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0014s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `icpnt_order` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `icpnt_ordermessage` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `icpnt_ordermessage`  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `icpnt_order` WHERE `id` NOT IN ('808','902','1038','1039','1040','1041','1042','1043','1046','1056','805','839','872','875','877','960','962','963','964','965','966','967','1034','1035','1044','1045','1048','1407') AND (  `order_status` = 2 OR `Deposit_type` = 1 ) LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2019-01-16T10:38:35+08:00 ] 127.0.0.1 /manage.php/Index/unreadOrderMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000121s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0003s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0002s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `icpnt_order` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `icpnt_ordermessage` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `icpnt_ordermessage`  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `icpnt_order` WHERE `id` NOT IN ('808','902','1038','1039','1040','1041','1042','1043','1046','1056','805','839','872','875','877','960','962','963','964','965','966','967','1034','1035','1044','1045','1048','1407') AND (  `order_status` = 2 OR `Deposit_type` = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2019-01-16T10:38:36+08:00 ] 127.0.0.1 /manage.php/Index/unreadOrderMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0003s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0002s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `icpnt_order` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `icpnt_ordermessage` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `icpnt_ordermessage`  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `icpnt_order` WHERE `id` NOT IN ('808','902','1038','1039','1040','1041','1042','1043','1046','1056','805','839','872','875','877','960','962','963','964','965','966','967','1034','1035','1044','1045','1048','1407') AND (  `order_status` = 2 OR `Deposit_type` = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2019-01-16T10:38:37+08:00 ] 127.0.0.1 /manage.php/Index/unreadOrderMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000260s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0003s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `icpnt_order` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `icpnt_ordermessage` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `icpnt_ordermessage`  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `icpnt_order` WHERE `id` NOT IN ('808','902','1038','1039','1040','1041','1042','1043','1046','1056','805','839','872','875','877','960','962','963','964','965','966','967','1034','1035','1044','1045','1048','1407') AND (  `order_status` = 2 OR `Deposit_type` = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2019-01-16T10:38:38+08:00 ] 127.0.0.1 /manage.php/Index/unreadOrderMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000270s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0009s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `icpnt_order` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `icpnt_ordermessage` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `icpnt_ordermessage`  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `icpnt_order` WHERE `id` NOT IN ('808','902','1038','1039','1040','1041','1042','1043','1046','1056','805','839','872','875','877','960','962','963','964','965','966','967','1034','1035','1044','1045','1048','1407') AND (  `order_status` = 2 OR `Deposit_type` = 1 ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2019-01-16T10:38:39+08:00 ] 127.0.0.1 /manage.php/Index/unreadOrderMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0008s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `icpnt_order` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `icpnt_ordermessage` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `icpnt_ordermessage`  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `icpnt_order` WHERE `id` NOT IN ('808','902','1038','1039','1040','1041','1042','1043','1046','1056','805','839','872','875','877','960','962','963','964','965','966','967','1034','1035','1044','1045','1048','1407') AND (  `order_status` = 2 OR `Deposit_type` = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-01-16T10:38:40+08:00 ] 127.0.0.1 /manage.php/Index/unreadOrderMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0003s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `icpnt_order` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `icpnt_ordermessage` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `icpnt_ordermessage`  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `icpnt_order` WHERE `id` NOT IN ('808','902','1038','1039','1040','1041','1042','1043','1046','1056','805','839','872','875','877','960','962','963','964','965','966','967','1034','1035','1044','1045','1048','1407') AND (  `order_status` = 2 OR `Deposit_type` = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2019-01-16T10:38:41+08:00 ] 127.0.0.1 /manage.php/Index/unreadOrderMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000136s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0004s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `icpnt_order` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `icpnt_ordermessage` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `icpnt_ordermessage`  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `icpnt_order` WHERE `id` NOT IN ('808','902','1038','1039','1040','1041','1042','1043','1046','1056','805','839','872','875','877','960','962','963','964','965','966','967','1034','1035','1044','1045','1048','1407') AND (  `order_status` = 2 OR `Deposit_type` = 1 ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-01-16T10:38:42+08:00 ] 127.0.0.1 /manage.php/Index/unreadOrderMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000261s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0009s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `icpnt_order` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `icpnt_ordermessage` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `icpnt_ordermessage`  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `icpnt_order` WHERE `id` NOT IN ('808','902','1038','1039','1040','1041','1042','1043','1046','1056','805','839','872','875','877','960','962','963','964','965','966','967','1034','1035','1044','1045','1048','1407') AND (  `order_status` = 2 OR `Deposit_type` = 1 ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2019-01-16T10:38:43+08:00 ] 127.0.0.1 /manage.php/Index/unreadOrderMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000099s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0004s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `icpnt_order` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `icpnt_ordermessage` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `icpnt_ordermessage`  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `icpnt_order` WHERE `id` NOT IN ('808','902','1038','1039','1040','1041','1042','1043','1046','1056','805','839','872','875','877','960','962','963','964','965','966','967','1034','1035','1044','1045','1048','1407') AND (  `order_status` = 2 OR `Deposit_type` = 1 ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2019-01-16T10:38:44+08:00 ] 127.0.0.1 /manage.php/Index/unreadOrderMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000093s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0003s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `icpnt_order` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `icpnt_ordermessage` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `icpnt_ordermessage`  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `icpnt_order` WHERE `id` NOT IN ('808','902','1038','1039','1040','1041','1042','1043','1046','1056','805','839','872','875','877','960','962','963','964','965','966','967','1034','1035','1044','1045','1048','1407') AND (  `order_status` = 2 OR `Deposit_type` = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2019-01-16T10:38:45+08:00 ] 127.0.0.1 /manage.php/Index/unreadOrderMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000093s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0003s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `icpnt_order` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `icpnt_ordermessage` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `icpnt_ordermessage`  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `icpnt_order` WHERE `id` NOT IN ('808','902','1038','1039','1040','1041','1042','1043','1046','1056','805','839','872','875','877','960','962','963','964','965','966','967','1034','1035','1044','1045','1048','1407') AND (  `order_status` = 2 OR `Deposit_type` = 1 ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-01-16T10:38:46+08:00 ] 127.0.0.1 /manage.php/Index/unreadOrderMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000310s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0010s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0009s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `icpnt_order` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `icpnt_ordermessage` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `icpnt_ordermessage`  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `icpnt_order` WHERE `id` NOT IN ('808','902','1038','1039','1040','1041','1042','1043','1046','1056','805','839','872','875','877','960','962','963','964','965','966','967','1034','1035','1044','1045','1048','1407') AND (  `order_status` = 2 OR `Deposit_type` = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-01-16T10:38:47+08:00 ] 127.0.0.1 /manage.php/Index/unreadOrderMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000300s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0004s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `icpnt_order` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `icpnt_ordermessage` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `icpnt_ordermessage`  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `icpnt_order` WHERE `id` NOT IN ('808','902','1038','1039','1040','1041','1042','1043','1046','1056','805','839','872','875','877','960','962','963','964','965','966','967','1034','1035','1044','1045','1048','1407') AND (  `order_status` = 2 OR `Deposit_type` = 1 ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-01-16T10:38:48+08:00 ] 127.0.0.1 /manage.php/Index/unreadOrderMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0005s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `icpnt_order` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `icpnt_ordermessage` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `icpnt_ordermessage`  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `icpnt_order` WHERE `id` NOT IN ('808','902','1038','1039','1040','1041','1042','1043','1046','1056','805','839','872','875','877','960','962','963','964','965','966','967','1034','1035','1044','1045','1048','1407') AND (  `order_status` = 2 OR `Deposit_type` = 1 ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-01-16T10:38:49+08:00 ] 127.0.0.1 /manage.php/Index/unreadOrderMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0003s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `icpnt_order` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `icpnt_ordermessage` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `icpnt_ordermessage`  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `icpnt_order` WHERE `id` NOT IN ('808','902','1038','1039','1040','1041','1042','1043','1046','1056','805','839','872','875','877','960','962','963','964','965','966','967','1034','1035','1044','1045','1048','1407') AND (  `order_status` = 2 OR `Deposit_type` = 1 ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-01-16T10:38:50+08:00 ] 127.0.0.1 /manage.php/Index/unreadOrderMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000308s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0005s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `icpnt_order` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `icpnt_ordermessage` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `icpnt_ordermessage`  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `icpnt_order` WHERE `id` NOT IN ('808','902','1038','1039','1040','1041','1042','1043','1046','1056','805','839','872','875','877','960','962','963','964','965','966','967','1034','1035','1044','1045','1048','1407') AND (  `order_status` = 2 OR `Deposit_type` = 1 ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2019-01-16T10:38:51+08:00 ] 127.0.0.1 /manage.php/Index/unreadOrderMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0003s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `icpnt_order` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `icpnt_ordermessage` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `icpnt_ordermessage`  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `icpnt_order` WHERE `id` NOT IN ('808','902','1038','1039','1040','1041','1042','1043','1046','1056','805','839','872','875','877','960','962','963','964','965','966','967','1034','1035','1044','1045','1048','1407') AND (  `order_status` = 2 OR `Deposit_type` = 1 ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-01-16T10:38:52+08:00 ] 127.0.0.1 /manage.php/Index/unreadOrderMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000091s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0003s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `icpnt_order` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `icpnt_ordermessage` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `icpnt_ordermessage`  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `icpnt_order` WHERE `id` NOT IN ('808','902','1038','1039','1040','1041','1042','1043','1046','1056','805','839','872','875','877','960','962','963','964','965','966','967','1034','1035','1044','1045','1048','1407') AND (  `order_status` = 2 OR `Deposit_type` = 1 ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-01-16T10:38:53+08:00 ] 127.0.0.1 /manage.php/Index/unreadOrderMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000302s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0010s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `icpnt_order` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `icpnt_ordermessage` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `icpnt_ordermessage`  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `icpnt_order` WHERE `id` NOT IN ('808','902','1038','1039','1040','1041','1042','1043','1046','1056','805','839','872','875','877','960','962','963','964','965','966','967','1034','1035','1044','1045','1048','1407') AND (  `order_status` = 2 OR `Deposit_type` = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-01-16T10:38:54+08:00 ] 127.0.0.1 /manage.php/Index/unreadOrderMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000316s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0003s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `icpnt_order` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `icpnt_ordermessage` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `icpnt_ordermessage`  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `icpnt_order` WHERE `id` NOT IN ('808','902','1038','1039','1040','1041','1042','1043','1046','1056','805','839','872','875','877','960','962','963','964','965','966','967','1034','1035','1044','1045','1048','1407') AND (  `order_status` = 2 OR `Deposit_type` = 1 ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-01-16T10:38:55+08:00 ] 127.0.0.1 /manage.php/Index/unreadOrderMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0004s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `icpnt_order` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `icpnt_ordermessage` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `icpnt_ordermessage`  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `icpnt_order` WHERE `id` NOT IN ('808','902','1038','1039','1040','1041','1042','1043','1046','1056','805','839','872','875','877','960','962','963','964','965','966','967','1034','1035','1044','1045','1048','1407') AND (  `order_status` = 2 OR `Deposit_type` = 1 ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-01-16T10:38:56+08:00 ] 127.0.0.1 /manage.php/Index/unreadOrderMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0003s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `icpnt_order` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `icpnt_ordermessage` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `icpnt_ordermessage`  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `icpnt_order` WHERE `id` NOT IN ('808','902','1038','1039','1040','1041','1042','1043','1046','1056','805','839','872','875','877','960','962','963','964','965','966','967','1034','1035','1044','1045','1048','1407') AND (  `order_status` = 2 OR `Deposit_type` = 1 ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-01-16T10:38:57+08:00 ] 127.0.0.1 /manage.php/Index/unreadOrderMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000094s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0005s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `icpnt_order` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `icpnt_ordermessage` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `icpnt_ordermessage`  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `icpnt_order` WHERE `id` NOT IN ('808','902','1038','1039','1040','1041','1042','1043','1046','1056','805','839','872','875','877','960','962','963','964','965','966','967','1034','1035','1044','1045','1048','1407') AND (  `order_status` = 2 OR `Deposit_type` = 1 ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2019-01-16T10:38:58+08:00 ] 127.0.0.1 /manage.php/Index/unreadOrderMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0004s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `icpnt_order` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `icpnt_ordermessage` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `icpnt_ordermessage`  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `icpnt_order` WHERE `id` NOT IN ('808','902','1038','1039','1040','1041','1042','1043','1046','1056','805','839','872','875','877','960','962','963','964','965','966','967','1034','1035','1044','1045','1048','1407') AND (  `order_status` = 2 OR `Deposit_type` = 1 ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-01-16T10:38:59+08:00 ] 127.0.0.1 /manage.php/Index/unreadOrderMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000094s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0005s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `icpnt_order` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `icpnt_ordermessage` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `icpnt_ordermessage`  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `icpnt_order` WHERE `id` NOT IN ('808','902','1038','1039','1040','1041','1042','1043','1046','1056','805','839','872','875','877','960','962','963','964','965','966','967','1034','1035','1044','1045','1048','1407') AND (  `order_status` = 2 OR `Deposit_type` = 1 ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2019-01-16T10:39:00+08:00 ] 127.0.0.1 /manage.php/Index/unreadOrderMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0004s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `icpnt_order` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `icpnt_ordermessage` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `icpnt_ordermessage`  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `icpnt_order` WHERE `id` NOT IN ('808','902','1038','1039','1040','1041','1042','1043','1046','1056','805','839','872','875','877','960','962','963','964','965','966','967','1034','1035','1044','1045','1048','1407') AND (  `order_status` = 2 OR `Deposit_type` = 1 ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-01-16T10:39:01+08:00 ] 127.0.0.1 /manage.php/Index/unreadOrderMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000176s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0004s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `icpnt_order` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `icpnt_ordermessage` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `icpnt_ordermessage`  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `icpnt_order` WHERE `id` NOT IN ('808','902','1038','1039','1040','1041','1042','1043','1046','1056','805','839','872','875','877','960','962','963','964','965','966','967','1034','1035','1044','1045','1048','1407') AND (  `order_status` = 2 OR `Deposit_type` = 1 ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-01-16T10:39:02+08:00 ] 127.0.0.1 /manage.php/Index/unreadOrderMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0010s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `icpnt_order` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `icpnt_ordermessage` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `icpnt_ordermessage`  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `icpnt_order` WHERE `id` NOT IN ('808','902','1038','1039','1040','1041','1042','1043','1046','1056','805','839','872','875','877','960','962','963','964','965','966','967','1034','1035','1044','1045','1048','1407') AND (  `order_status` = 2 OR `Deposit_type` = 1 ) LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2019-01-16T10:39:03+08:00 ] 127.0.0.1 /manage.php/Index/unreadOrderMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000183s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0004s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `icpnt_order` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `icpnt_ordermessage` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `icpnt_ordermessage`  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `icpnt_order` WHERE `id` NOT IN ('808','902','1038','1039','1040','1041','1042','1043','1046','1056','805','839','872','875','877','960','962','963','964','965','966','967','1034','1035','1044','1045','1048','1407') AND (  `order_status` = 2 OR `Deposit_type` = 1 ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-01-16T10:39:04+08:00 ] 127.0.0.1 /manage.php/Index/unreadOrderMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0005s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `icpnt_order` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `icpnt_ordermessage` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `icpnt_ordermessage`  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `icpnt_order` WHERE `id` NOT IN ('808','902','1038','1039','1040','1041','1042','1043','1046','1056','805','839','872','875','877','960','962','963','964','965','966','967','1034','1035','1044','1045','1048','1407') AND (  `order_status` = 2 OR `Deposit_type` = 1 ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2019-01-16T10:39:05+08:00 ] 127.0.0.1 /manage.php/Index/unreadOrderMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000106s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0005s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `icpnt_order` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `icpnt_ordermessage` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `icpnt_ordermessage`  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `icpnt_order` WHERE `id` NOT IN ('808','902','1038','1039','1040','1041','1042','1043','1046','1056','805','839','872','875','877','960','962','963','964','965','966','967','1034','1035','1044','1045','1048','1407') AND (  `order_status` = 2 OR `Deposit_type` = 1 ) LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2019-01-16T10:39:06+08:00 ] 127.0.0.1 /manage.php/Index/unreadOrderMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000089s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0004s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `icpnt_order` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `icpnt_ordermessage` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `icpnt_ordermessage`  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `icpnt_order` WHERE `id` NOT IN ('808','902','1038','1039','1040','1041','1042','1043','1046','1056','805','839','872','875','877','960','962','963','964','965','966','967','1034','1035','1044','1045','1048','1407') AND (  `order_status` = 2 OR `Deposit_type` = 1 ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-01-16T10:39:07+08:00 ] 127.0.0.1 /manage.php/Index/unreadOrderMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0003s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0002s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `icpnt_order` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `icpnt_ordermessage` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `icpnt_ordermessage`  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `icpnt_order` WHERE `id` NOT IN ('808','902','1038','1039','1040','1041','1042','1043','1046','1056','805','839','872','875','877','960','962','963','964','965','966','967','1034','1035','1044','1045','1048','1407') AND (  `order_status` = 2 OR `Deposit_type` = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-01-16T10:39:08+08:00 ] 127.0.0.1 /manage.php/Index/unreadOrderMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000178s ]
+SQL: SHOW COLUMNS FROM `icpnt_group` [ RunTime:0.0007s ]
+SQL: SELECT `rules` FROM `icpnt_group` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `icpnt_module` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`moduleName`,`moduleLink`,`moduleIcon` FROM `icpnt_module` WHERE `parent_id` = 0 AND `status` = 0 AND `id` IN ('1','2','3','4','5','6','7','8','84','9','10','11','16','51','57','73','45','46','66','74','49','82','83','52','65','54','68','50','77','61','75','69','76','72','71','64','63','62','78','70','44','79','80','81','87','88','90') ORDER BY sort asc  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `icpnt_order` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `icpnt_ordermessage` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `icpnt_ordermessage`  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `icpnt_order` WHERE `id` NOT IN ('808','902','1038','1039','1040','1041','1042','1043','1046','1056','805','839','872','875','877','960','962','963','964','965','966','967','1034','1035','1044','1045','1048','1407') AND (  `order_status` = 2 OR `Deposit_type` = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+

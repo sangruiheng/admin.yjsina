@@ -1,0 +1,62 @@
+[ 2018-12-06T14:20:26+08:00 ] 127.0.0.1 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008306s ]
+ERR: 无法加载控制器:Robots.txt
+
+[ 2018-12-06T14:20:26+08:00 ] 127.0.0.1 /
+NOTIC: [2] mkdir(): File exists /var/www/html/jiaju2/ThinkPHP/Library/Think/Build.class.php 第 110 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006849s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006977s ]
+
+[ 2018-12-06T14:20:26+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+
+[ 2018-12-06T14:23:10+08:00 ] 127.0.0.1 /Uploads/Manage/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000135s ]
+ERR: 无法加载控制器:Uploads
+
+[ 2018-12-06T14:23:24+08:00 ] 127.0.0.1 /Uploads/Manage/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000200s ]
+ERR: 无法加载控制器:Uploads
+
+[ 2018-12-06T14:23:33+08:00 ] 127.0.0.1 /Uploads/Manage/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000057s ]
+ERR: 无法加载控制器:Uploads
+
+[ 2018-12-06T14:23:35+08:00 ] 127.0.0.1 /Uploads/Manage/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000166s ]
+ERR: 无法加载控制器:Uploads
+

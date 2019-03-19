@@ -1,0 +1,9 @@
+{
+  "name": "接口文档",
+  "version": "1.0.0",
+  "description": "接口成功统一返回200，不成功或参数缺失统一返回400",
+  "apidoc": {
+    "title": "Custom apiDoc browser title",
+    "url" : "http://home.icpnt.com/"
+  }
+}

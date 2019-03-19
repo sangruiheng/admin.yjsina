@@ -1,0 +1,25 @@
+[ 2019-01-11T11:20:01+08:00 ] 127.0.0.1 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007476s ]
+ERR: 无法加载控制器:Robots.txt
+
+[ 2019-01-11T11:20:01+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013557s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008561s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005128s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005225s ]
+
+[ 2019-01-11T11:20:02+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+

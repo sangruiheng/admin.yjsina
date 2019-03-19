@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>无标题文档</title>
+    <include file="Common:common" />
+    <load href="__PUBLIC__/css/common/rightCommon.css" />
+    <style>
+        label{ padding:0 10px; margin:0; height:50px; line-height:50px; cursor:pointer;}
+    </style>
+    <script>
+        $(document).ready(function(e) {
+            getEditData(function(jdata){
+                console.log(jdata)
+            });
+
+        });
+    </script>
+</head>
+
+<body>
+<!--alert弹窗Start  -->
+<div id="top-alert" class="fixed alert alert-error" style="display:none;">
+    <button class="close fixed" style="margin-top: 4px;">&times;</button>
+    <div class="alert-content">这是内容</div>
+</div>
+<!--alert弹窗end  -->
+<nav class="navbar navbar-default" role="navigation">
+    <div class="navbar-header">
+        <a class="navbar-brand" href="#"><i class="fa fa-plus" aria-hidden="true"></i> <span id="changeTitle">自主发货</span>：<{$product.product_name}></a>
+    </div>
+</nav>
+
+<div class="add-box">
+    <form class="addForm ajax-fadein" id="form1" name="form1" method="post" action="__APP__/Order/autonomyOrder/controller/Order/backUrl/autonomyOrder/table/delivery">
+        <input name="id" type="hidden" id="id" value="<{$_GET['id']}>" />
+        <input name="order_id" type="hidden" id="order_id" value="<{$order_id}>" />
+        <input name="product_id" type="hidden" id="product_id" value="<{$product.id}>" />
+        <input name="user_id" type="hidden" id="user_id" value="<{$_GET['user_id']}>" />
+        <input name="order_producttype" type="hidden" id="order_producttype" value="<{$_GET['order_producttype']}>" />
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tbody>
+            <tr>
+                <td align="center">送货人</td>
+                <td><input type="text" name="contacts" id="contacts"  class="form-control"  datatype="*" nullmsg="请输入送货人姓名" placeholder="请输入商家联系人" /></td>
+            </tr>
+
+            <tr>
+                <td align="center">送货人联系电话</td>
+                <td><input type="text" name="contacts_tel" id="contacts_tel"  class="form-control"  datatype="*" nullmsg="请输入送货人联系电话" placeholder="请输入商家联系电话" /></td>
+            </tr>
+
+            <tr>
+                <td>&nbsp;</td>
+                <td>
+                    <button type="submit" class="btn btn-success" id="saveButton"><i class="fa fa-check" aria-hidden="true"></i> 发货</button>
+                    <button type="button" class="btn btn-default" id="cancelButton"><i class="fa fa-times" aria-hidden="true"></i> 取消</button>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </form>
+</div>
+
+</body>
+</html>

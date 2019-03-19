@@ -1,0 +1,64 @@
+[ 2018-12-28T11:29:57+08:00 ] 127.0.0.1 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000233s ]
+ERR: 无法加载控制器:Robots.txt
+
+[ 2018-12-28T11:29:57+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008800s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013244s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013409s ]
+
+[ 2018-12-28T11:29:58+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+
+[ 2018-12-28T11:36:30+08:00 ] 127.0.0.1 /api/getnews
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000056s ]
+SQL: SHOW COLUMNS FROM `icpnt_news` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title`,`content`,`newstypeID`,`addTime`,`image`,`click` FROM `icpnt_news` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `icpnt_newstype` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `icpnt_newstype` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `icpnt_news` SET `click`=click+1 WHERE ( id=1 ) [ RunTime:0.1154s ]
+SQL: select title,image,click,id,content from icpnt_news q where q.`status`=1 order by rand() limit 4 [ RunTime:0.0557s ]
+
+[ 2018-12-28T11:37:27+08:00 ] 127.0.0.1 /api/getnews
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000060s ]
+SQL: SHOW COLUMNS FROM `icpnt_news` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title`,`content`,`newstypeID`,`addTime`,`image`,`click` FROM `icpnt_news` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `icpnt_newstype` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `icpnt_newstype` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `icpnt_news` SET `click`=click+1 WHERE ( id=1 ) [ RunTime:0.2193s ]
+SQL: select title,image,click,id,content from icpnt_news q where q.`status`=1 order by rand() limit 4 [ RunTime:0.0014s ]
+
+[ 2018-12-28T16:49:19+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000123s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000248s ]
+

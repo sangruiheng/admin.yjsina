@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>无标题文档</title>
+    <include file="Common:common" />
+    <load href="__PUBLIC__/css/common/rightCommon.css" />
+</head>
+
+<body>
+<!--alert弹窗Start  -->
+<div id="top-alert" class="fixed alert alert-error" style="display:none;">
+    <button class="close fixed" style="margin-top: 4px;">&times;</button>
+    <div class="alert-content">这是内容</div>
+</div>
+<!--alert弹窗end  -->
+<nav class="navbar navbar-default" role="navigation">
+    <div class="navbar-header">
+        <a class="navbar-brand" href="#">当前一级分类:<{$category.navcate_name}></a>
+    </div>
+    <div>
+        <button type="button" class="btn btn-default navbar-btn listButton" onclick="window.history.go(-1)"><i class="fa fa-times" aria-hidden="true"></i> 返回上层</button>
+        <button type="button" value="<{$_GET['navcate_pid']}>" class="btn btn-danger navbar-btn listButton" onclick="deleteCate(this,'navcategory')"><i class="fa fa-trash-o" aria-hidden="true"></i> 删除</button>
+        <button type="button" class="btn btn-info navbar-btn listButton" onclick="editData('addSecondLevel')"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> 修改</button>
+        <button type="button" value="<{$category.id}>" class="btn btn-success navbar-btn listButton" onclick="openAddSecondLevel(this,'addSecondLevel')"><i class="fa fa-plus" aria-hidden="true"></i> 新建</button>
+        <form class="navbar-form navbar-right listSearch" role="search" method="get" action="__ACTION__">
+
+            <div class="form-group">
+                <input name="keyWord" type="text" class="form-control" id="keyWord" placeholder="请输入关键词进行搜索">
+            </div>
+            <button type="submit" class="btn btn-primary"><i class="fa fa-search" aria-hidden="true"></i> 搜索</button>
+        </form>
+    </div>
+</nav>
+<input name="navcate_pid" type="hidden" id="navcate_pid" value="<{$_GET['navcate_pid']}>" />
+<div class="list-box">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <thead>
+        <tr>
+            <th>选择</th>
+            <th>编号</th>
+            <th>二级分类名称</th>
+            <th>缩略图</th>
+            <!--<th>推荐到首页</th>-->
+        </tr>
+        </thead>
+        <tbody>
+        <volist name="list" id="vo">
+            <tr>
+                <td><input type="checkbox" name="del_listID" id="del_listID" data-name="multi-select" value="<{$vo.id}>" /></td>
+                <td><{$vo.id}></td>
+                <td><{$vo.navcate_name}></td>
+                <td><img  src="/Uploads/Manage/<?php echo $vo['navcate_img']?>" width="100" height="100" class="newsimgs" alt="图片未找到" style="padding: 5px"></td>
+                <!--<td class="status "><{:statusInfo('navcategory',$vo['id'],$vo['status'],'未推荐','已推荐')}></td>-->
+            </tr>
+        </volist>
+        </tbody>
+    </table>
+</div>
+
+<ul class="pagination">
+    <{$page}>
+</ul>
+<script src="__PUBLIC__/js/status/status.js"></script>
+<script>
+    function openAddSecondLevel(obj,src){
+        var navcate_pid = $(obj).attr('value');
+        if (typeof(src) != "undefined") {
+            window.location.href = APP+'/'+CONTROLLER_NAME+'/'+src+'/navcate_pid/'+navcate_pid;
+        }else{
+            $.show({
+                title : '提示',
+                isConfirm: false,
+                content : '未检测到指定页面'
+            });
+        }
+    }
+    //删除
+    function deleteCate(obj,table){
+        var type_id = $(obj).attr('value');
+        var delID = '';
+        $("input[name=del_listID]:checked").each(function() {
+            delID += $(this).val() + ",";
+        });
+        if(delID.length <= 0){
+            $.show({
+                title : '提示',
+                isConfirm: false,
+                content : '请选择要删除的数据！'
+            });
+        }else{
+            $.showAsk({
+                title : '删除数据',
+                type : 'warning',
+                content : '确定要删除吗？',
+                callback : function(){
+                    $.post(APP+'/NavCategory/delCategoryData',{delID : delID,table : table},function(){
+                        window.location.href=APP+'/NavCategory/SecondLevel?navcate_pid='+type_id ;
+                    });
+                }
+            });
+        }
+    }
+
+</script>
+</body>
+</html>

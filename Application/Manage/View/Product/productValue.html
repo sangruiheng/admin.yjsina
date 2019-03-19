@@ -1,0 +1,155 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>无标题文档</title>
+	<include file="Common:common" />
+	<load href="__PUBLIC__/css/common/rightCommon.css" />
+
+
+
+
+</head>
+
+<body>
+<!--alert弹窗Start  -->
+<div id="top-alert" class="fixed alert alert-error" style="display:none;">
+	<button class="close fixed" style="margin-top: 4px;">&times;</button>
+	<div class="alert-content">这是内容</div>
+</div>
+<!--alert弹窗end  -->
+<nav class="navbar navbar-default" role="navigation">
+	<div class="navbar-header">
+		<a class="navbar-brand" href="#">属性名称: <{$_GET['attr_name']}></a>
+	</div>
+	<div>
+		<button type="button" class="btn btn-default navbar-btn listButton" id="cancelButton" onclick=" window.location.href = APP+'/'+CONTROLLER_NAME+'/productAttr/type_id/<{$_GET[\'type_id\']}>'"><i class="fa fa-times" aria-hidden="true"></i> 返回上层</button>
+		<button type="button"  value="<{$_GET['attr_id']}>" attr_name="<{$_GET['attr_name']}>"  class="btn btn-danger navbar-btn listButton" onclick="deleteValueData(this,'productvalue')"><i class="fa fa-trash-o" aria-hidden="true"></i> 删除</button>
+		<button type="button" value="<{$_GET['attr_id']}>" class="btn btn-info navbar-btn listButton" onclick="editValueData(this,'addProductValue')"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> 修改</button>
+		<button type="button" value="<{$_GET['attr_id']}>"  class="btn btn-success navbar-btn listButton" onclick="openAddValueData(this,'addProductValue')"><i class="fa fa-plus" aria-hidden="true"></i> 新建</button>
+
+		<form class="navbar-form navbar-right listSearch" role="search" method="get" action="__ACTION__">
+
+			<div class="form-group">
+				<input name="keyWord" type="text" class="form-control" id="keyWord" placeholder="请输入关键词进行搜索">
+			</div>
+			<button type="submit" class="btn btn-primary"><i class="fa fa-search" aria-hidden="true"></i> 搜索</button>
+		</form>
+	</div>
+</nav>
+
+<div class="list-box">
+	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+		<thead>
+		<tr>
+			<th>选择</th>
+			<th>编号</th>
+			<th>属性值</th>
+			<th>属性图</th>
+		</tr>
+		</thead>
+		<tbody>
+		<volist name="list" id="vo">
+			<tr>
+				<td><input type="checkbox" name="del_listID" id="del_listID" data-name="multi-select" value="<{$vo.id}>" /></td>
+				<td><{$vo.id}></td>
+				<td><{$vo.productvalue_name}></td>
+				<td><img  src="/Uploads/Manage/<?php echo $vo['productvalue_img']?>" width="100" height="100" class="newsimgs" alt="暂无图片" style="padding: 5px"></td>
+			</tr>
+		</volist>
+		</tbody>
+	</table>
+</div>
+
+<ul class="pagination">
+	<{$page}>
+</ul>
+<script>
+    function openAddValueData(obj,src){
+        var attr_id = $(obj).attr('value');
+        if (typeof(src) != "undefined") {
+            window.location.href = APP+'/'+CONTROLLER_NAME+'/'+src+'/attr_id/'+attr_id;
+        }else{
+            $.show({
+                title : '提示',
+                isConfirm: false,
+                content : '未检测到指定页面'
+            });
+        }
+    }
+
+    function editValueData(obj,src){
+        var attr_id = $(obj).attr('value');
+        var checkBox = $("input[name=del_listID]:checked");
+        var checkBoxVal = checkBox.val();
+        if (checkBox.length == 1) {
+            window.location.href = APP+'/'+CONTROLLER_NAME+'/'+src+'?id='+checkBoxVal+'&attr_id='+attr_id;
+        }else if(checkBox.length > 1){
+            $.show({
+                title : '提示',
+                isConfirm: false,
+                content : '只能同时编辑一条数据'
+            });
+        }else{
+            $.show({
+                title : '提示',
+                isConfirm: false,
+                content : '请至少选中一条数据'
+            });
+        }
+
+    }
+
+    //列表页面点击删除按钮
+    function deleteValueData(obj,table){
+        var attr_id = $(obj).attr('value');
+        var attr_name = $(obj).attr('attr_name');
+        var delID = '';
+        $("input[name=del_listID]:checked").each(function() {
+            delID += $(this).val() + ",";
+        });
+        //用户群组里的超级管理员不能删只能修改
+        if(table == 'Group' && delID.indexOf(AUTH_GROUP_ID) != -1){
+            $.show({
+                title : '提示',
+                isConfirm: false,
+                content : '超级管理员群组不能删除如有改动请修改！'
+            });
+            return false;
+        }
+        //后台管理员里的admin用户不能删除只能修改
+        if(table == 'Adminuser' && delID.indexOf(AUTH_USER_ID) != -1){
+            $.show({
+                title : '提示',
+                isConfirm: false,
+                content : '后台超级管理员不能删除如有改动请修改！'
+            });
+            return false;
+        }
+        if(delID.length <= 0){
+            $.show({
+                title : '提示',
+                isConfirm: false,
+                content : '请选择要删除的数据！'
+            });
+        }else{
+            $.showAsk({
+                title : '删除数据',
+                type : 'warning',
+                content : '确定要删除吗？',
+                callback : function(){
+                    $.post(APP+'/Product/deleteValueData',{delID : delID,table : table},function(){
+                        window.location.href=APP+'/Product/productValue?attr_id='+attr_id + '&attr_name='+attr_name;
+                        // reload();
+                    });
+                }
+            });
+        }
+    }
+</script>
+
+
+<script src="__PUBLIC__/js/status/status.js"></script>
+
+</body>
+</html>

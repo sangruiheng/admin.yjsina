@@ -1,0 +1,515 @@
+[ 2018-12-18T12:05:16+08:00 ] 127.0.0.1 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013778s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007427s ]
+ERR: 无法加载控制器:Robots.txt
+
+[ 2018-12-18T12:05:16+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008637s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004274s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004409s ]
+
+[ 2018-12-18T12:05:17+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+
+[ 2018-12-18T12:07:57+08:00 ] 127.0.0.1 /Uploads/Manage/20181218/5c186a74e7be2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+
+[ 2018-12-18T12:07:57+08:00 ] 127.0.0.1 /Uploads/Manage/20181212/5c10aaaf431bb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000134s ]
+
+[ 2018-12-18T12:07:57+08:00 ] 127.0.0.1 /Uploads/Manage/20181212/5c10a8ee40b4d.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+
+[ 2018-12-18T12:07:57+08:00 ] 127.0.0.1 /Uploads/Manage/20181212/5c10a6b33c23a.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+
+[ 2018-12-18T12:07:57+08:00 ] 127.0.0.1 /Uploads/Manage/20181212/5c10a5d3c6880.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+
+[ 2018-12-18T12:07:57+08:00 ] 127.0.0.1 /Uploads/Manage/20181212/5c10a50e004fc.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+
+[ 2018-12-18T12:07:57+08:00 ] 127.0.0.1 /Uploads/Manage/20181212/5c10a3d35bca6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+
+[ 2018-12-18T12:07:57+08:00 ] 127.0.0.1 /Uploads/Manage/20181212/5c10a2cfba358.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+
+[ 2018-12-18T12:07:58+08:00 ] 127.0.0.1 /Uploads/Manage/20181212/5c10a1e5387c9.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+
+[ 2018-12-18T12:07:58+08:00 ] 127.0.0.1 /Uploads/Manage/20181212/5c10a9ebb6996.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+
+[ 2018-12-18T12:08:02+08:00 ] 127.0.0.1 /Uploads/Manage/20181213/5c11d016d0b41.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+
+[ 2018-12-18T12:08:02+08:00 ] 127.0.0.1 /Uploads/Manage/20181208/5c0b67100a790.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+
+[ 2018-12-18T12:08:02+08:00 ] 127.0.0.1 /Uploads/Manage/20181208/5c0b669716d1a.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+
+[ 2018-12-18T12:08:02+08:00 ] 127.0.0.1 /Uploads/Manage/20181208/5c0b6610789e5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+
+[ 2018-12-18T12:08:02+08:00 ] 127.0.0.1 /Uploads/Manage/20181208/5c0b6059cc6f5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+
+[ 2018-12-18T12:08:03+08:00 ] 127.0.0.1 /Uploads/Manage/20181218/5c186a74e7be2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+
+[ 2018-12-18T12:08:03+08:00 ] 127.0.0.1 /Uploads/Manage/20181212/5c10a9ebb6996.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+
+[ 2018-12-18T12:08:03+08:00 ] 127.0.0.1 /Uploads/Manage/20181212/5c10a8ee40b4d.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+
+[ 2018-12-18T12:08:03+08:00 ] 127.0.0.1 /Uploads/Manage/20181212/5c10aaaf431bb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+
+[ 2018-12-18T12:08:03+08:00 ] 127.0.0.1 /Uploads/Manage/20181212/5c10a5d3c6880.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+
+[ 2018-12-18T12:08:03+08:00 ] 127.0.0.1 /Uploads/Manage/20181212/5c10a6b33c23a.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+
+[ 2018-12-18T12:08:03+08:00 ] 127.0.0.1 /Uploads/Manage/20181212/5c10a1e5387c9.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+
+[ 2018-12-18T12:08:03+08:00 ] 127.0.0.1 /Uploads/Manage/20181212/5c10a50e004fc.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+
+[ 2018-12-18T12:08:03+08:00 ] 127.0.0.1 /Uploads/Manage/20181212/5c10a3d35bca6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+
+[ 2018-12-18T12:08:03+08:00 ] 127.0.0.1 /Uploads/Manage/20181212/5c10a2cfba358.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000136s ]
+
+[ 2018-12-18T12:08:58+08:00 ] 127.0.0.1 /api/search/integrate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000056s ]
+SQL: SHOW COLUMNS FROM `icpnt_navcategory` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `icpnt_navcategory` WHERE `navcate_name` LIKE '%橱柜%'  [ RunTime:0.0084s ]
+NOTIC: [8] Undefined index: pid /var/www/html/jiaju2/Application/Api/Controller/SearchController.class.php 第 103 行.
+SQL: SELECT * FROM `icpnt_navcategory` WHERE ( navcate_pid=90 )  [ RunTime:0.0082s ]
+SQL: SHOW COLUMNS FROM `icpnt_product` [ RunTime:0.0091s ]
+SQL: SELECT p.id,`product_name`,`productimage_url`,`price`,`original_price`,`product_djprice`,`product_brand`,`product_type` FROM icpnt_product p INNER JOIN icpnt_productimage as i ON p.id = i.product_id left join icpnt_producttype1 as t ON p.id = t.product_id left join icpnt_productattr1 as a ON t.id = a.attrtype_id left join icpnt_business as b ON p.business_id = b.id  WHERE (  `category_id` IN ('90') AND `product_type` <> 3 ) OR ( `product_name` LIKE '%橱柜%' OR `product_brand` LIKE '%橱柜%' OR `business_name` LIKE '%橱柜%' ) OR ( is_thumb=1 ) GROUP BY p.id ORDER BY p.id desc LIMIT 0,10   [ RunTime:0.0084s ]
+
+[ 2018-12-18T12:26:57+08:00 ] 127.0.0.1 /api/search/integrate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000227s ]
+SQL: SHOW COLUMNS FROM `icpnt_navcategory` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `icpnt_navcategory` WHERE `navcate_name` LIKE '%橱柜%'  [ RunTime:0.0119s ]
+NOTIC: [8] Undefined index: pid xdebug://debug-eval(1) : eval()'d code 第 1 行.
+NOTIC: [8] Undefined index: pid /var/www/html/jiaju2/Application/Api/Controller/SearchController.class.php 第 103 行.
+SQL: SELECT * FROM `icpnt_navcategory` WHERE ( navcate_pid=90 )  [ RunTime:0.0103s ]
+SQL: SHOW COLUMNS FROM `icpnt_product` [ RunTime:0.0115s ]
+NOTIC: [8] Undefined index: product_type xdebug://debug-eval(1) : eval()'d code 第 1 行.
+SQL: SELECT p.id,`product_name`,`productimage_url`,`price`,`original_price`,`product_djprice`,`product_brand`,`product_type` FROM icpnt_product p INNER JOIN icpnt_productimage as i ON p.id = i.product_id left join icpnt_producttype1 as t ON p.id = t.product_id left join icpnt_productattr1 as a ON t.id = a.attrtype_id left join icpnt_business as b ON p.business_id = b.id  WHERE (  `category_id` IN ('90') AND `product_type` <> 3 ) OR ( `product_name` LIKE '%橱柜%' OR `product_brand` LIKE '%橱柜%' OR `business_name` LIKE '%橱柜%' ) OR ( is_thumb=1 ) GROUP BY p.id ORDER BY p.id desc LIMIT 0,10   [ RunTime:0.0117s ]
+
+[ 2018-12-18T12:32:30+08:00 ] 127.0.0.1 /api/search/integrate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+SQL: SHOW COLUMNS FROM `icpnt_navcategory` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `icpnt_navcategory` WHERE `navcate_name` LIKE '%橱柜%'  [ RunTime:0.0084s ]
+NOTIC: [8] Undefined index: pid /var/www/html/jiaju2/Application/Api/Controller/SearchController.class.php 第 103 行.
+SQL: SELECT * FROM `icpnt_navcategory` WHERE ( navcate_pid=90 )  [ RunTime:0.0088s ]
+SQL: SHOW COLUMNS FROM `icpnt_product` [ RunTime:0.0091s ]
+SQL: SELECT p.id,`product_name`,`productimage_url`,`price`,`original_price`,`product_djprice`,`product_brand`,`product_type` FROM icpnt_product p INNER JOIN icpnt_productimage as i ON p.id = i.product_id left join icpnt_producttype1 as t ON p.id = t.product_id left join icpnt_productattr1 as a ON t.id = a.attrtype_id left join icpnt_business as b ON p.business_id = b.id  WHERE (  `category_id` IN ('90') AND `product_type` <> 3 ) OR ( `product_name` LIKE '%橱柜%' OR `product_brand` LIKE '%橱柜%' OR `business_name` LIKE '%橱柜%' ) OR `is_thumb` = 1 GROUP BY p.id ORDER BY p.id desc LIMIT 0,10   [ RunTime:0.1046s ]
+
+[ 2018-12-18T12:33:41+08:00 ] 127.0.0.1 /api/search/integrate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+SQL: SHOW COLUMNS FROM `icpnt_navcategory` [ RunTime:0.0171s ]
+SQL: SELECT * FROM `icpnt_navcategory` WHERE `navcate_name` LIKE '%橱柜%'  [ RunTime:0.0160s ]
+NOTIC: [8] Undefined index: pid /var/www/html/jiaju2/Application/Api/Controller/SearchController.class.php 第 103 行.
+SQL: SELECT * FROM `icpnt_navcategory` WHERE ( navcate_pid=90 )  [ RunTime:0.0169s ]
+SQL: SHOW COLUMNS FROM `icpnt_product` [ RunTime:0.0161s ]
+SQL: SELECT p.id,`product_name`,`productimage_url`,`price`,`original_price`,`product_djprice`,`product_brand`,`product_type` FROM icpnt_product p INNER JOIN icpnt_productimage as i ON p.id = i.product_id left join icpnt_producttype1 as t ON p.id = t.product_id left join icpnt_productattr1 as a ON t.id = a.attrtype_id left join icpnt_business as b ON p.business_id = b.id  WHERE (  `is_thumb` = 1 ) OR ( `product_name` LIKE '%橱柜%' OR `product_brand` LIKE '%橱柜%' OR `business_name` LIKE '%橱柜%' ) GROUP BY p.id ORDER BY p.id desc LIMIT 0,10   [ RunTime:0.1144s ]
+
+[ 2018-12-18T12:35:38+08:00 ] 127.0.0.1 /api/search/integrate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000312s ]
+SQL: SHOW COLUMNS FROM `icpnt_navcategory` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `icpnt_navcategory` WHERE `navcate_name` LIKE '%橱柜%'  [ RunTime:0.0092s ]
+NOTIC: [8] Undefined index: pid /var/www/html/jiaju2/Application/Api/Controller/SearchController.class.php 第 103 行.
+SQL: SELECT * FROM `icpnt_navcategory` WHERE ( navcate_pid=90 )  [ RunTime:0.0088s ]
+SQL: SHOW COLUMNS FROM `icpnt_product` [ RunTime:0.0092s ]
+SQL: SELECT p.id,`product_name`,`productimage_url`,`price`,`original_price`,`product_djprice`,`product_brand`,`product_type` FROM icpnt_product p INNER JOIN icpnt_productimage as i ON p.id = i.product_id left join icpnt_producttype1 as t ON p.id = t.product_id left join icpnt_productattr1 as a ON t.id = a.attrtype_id left join icpnt_business as b ON p.business_id = b.id  WHERE ( is_thumb=1 ) OR (  `category_id` IN ('90') AND `product_type` <> 3 ) OR ( `product_name` LIKE '%橱柜%' OR `product_brand` LIKE '%橱柜%' OR `business_name` LIKE '%橱柜%' ) GROUP BY p.id ORDER BY p.id desc LIMIT 0,10   [ RunTime:0.1120s ]
+
+[ 2018-12-18T12:35:57+08:00 ] 127.0.0.1 /api/search/integrate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000153s ]
+SQL: SHOW COLUMNS FROM `icpnt_navcategory` [ RunTime:0.0165s ]
+SQL: SELECT * FROM `icpnt_navcategory` WHERE `navcate_name` LIKE '%橱柜%'  [ RunTime:0.0157s ]
+NOTIC: [8] Undefined index: pid /var/www/html/jiaju2/Application/Api/Controller/SearchController.class.php 第 103 行.
+SQL: SELECT * FROM `icpnt_navcategory` WHERE ( navcate_pid=90 )  [ RunTime:0.0159s ]
+SQL: SHOW COLUMNS FROM `icpnt_product` [ RunTime:0.0238s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and is_thumb=1 ) GROUP BY p.id ORDER BY p.id desc LIMIT 0,10' at line 1
+ [ SQL语句 ] : SELECT p.id,`product_name`,`productimage_url`,`price`,`original_price`,`product_djprice`,`product_brand`,`product_type` FROM icpnt_product p INNER JOIN icpnt_productimage as i ON p.id = i.product_id left join icpnt_producttype1 as t ON p.id = t.product_id left join icpnt_productattr1 as a ON t.id = a.attrtype_id left join icpnt_business as b ON p.business_id = b.id  WHERE (  `category_id` IN ('90') AND `product_type` <> 3 ) OR ( `product_name` LIKE '%橱柜%' OR `product_brand` LIKE '%橱柜%' OR `business_name` LIKE '%橱柜%' ) OR ( and is_thumb=1 ) GROUP BY p.id ORDER BY p.id desc LIMIT 0,10  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and is_thumb=1 ) GROUP BY p.id ORDER BY p.id desc LIMIT 0,10' at line 1
+ [ SQL语句 ] : SELECT p.id,`product_name`,`productimage_url`,`price`,`original_price`,`product_djprice`,`product_brand`,`product_type` FROM icpnt_product p INNER JOIN icpnt_productimage as i ON p.id = i.product_id left join icpnt_producttype1 as t ON p.id = t.product_id left join icpnt_productattr1 as a ON t.id = a.attrtype_id left join icpnt_business as b ON p.business_id = b.id  WHERE (  `category_id` IN ('90') AND `product_type` <> 3 ) OR ( `product_name` LIKE '%橱柜%' OR `product_brand` LIKE '%橱柜%' OR `business_name` LIKE '%橱柜%' ) OR ( and is_thumb=1 ) GROUP BY p.id ORDER BY p.id desc LIMIT 0,10  
+
+[ 2018-12-18T12:36:33+08:00 ] 127.0.0.1 /api/search/integrate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000097s ]
+SQL: SHOW COLUMNS FROM `icpnt_navcategory` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `icpnt_navcategory` WHERE `navcate_name` LIKE '%橱柜%'  [ RunTime:0.0163s ]
+NOTIC: [8] Undefined index: pid /var/www/html/jiaju2/Application/Api/Controller/SearchController.class.php 第 103 行.
+SQL: SELECT * FROM `icpnt_navcategory` WHERE ( navcate_pid=90 )  [ RunTime:0.0164s ]
+SQL: SHOW COLUMNS FROM `icpnt_product` [ RunTime:0.0160s ]
+NOTIC: [8] Array to string conversion /var/www/html/jiaju2/Application/Api/Controller/SearchController.class.php 第 128 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'is_thumb=1 ) GROUP BY p.id ORDER BY p.id desc LIMIT 0,10' at line 1
+ [ SQL语句 ] : SELECT p.id,`product_name`,`productimage_url`,`price`,`original_price`,`product_djprice`,`product_brand`,`product_type` FROM icpnt_product p INNER JOIN icpnt_productimage as i ON p.id = i.product_id left join icpnt_producttype1 as t ON p.id = t.product_id left join icpnt_productattr1 as a ON t.id = a.attrtype_id left join icpnt_business as b ON p.business_id = b.id  WHERE ( Arrayand is_thumb=1 ) GROUP BY p.id ORDER BY p.id desc LIMIT 0,10  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'is_thumb=1 ) GROUP BY p.id ORDER BY p.id desc LIMIT 0,10' at line 1
+ [ SQL语句 ] : SELECT p.id,`product_name`,`productimage_url`,`price`,`original_price`,`product_djprice`,`product_brand`,`product_type` FROM icpnt_product p INNER JOIN icpnt_productimage as i ON p.id = i.product_id left join icpnt_producttype1 as t ON p.id = t.product_id left join icpnt_productattr1 as a ON t.id = a.attrtype_id left join icpnt_business as b ON p.business_id = b.id  WHERE ( Arrayand is_thumb=1 ) GROUP BY p.id ORDER BY p.id desc LIMIT 0,10  
+
+[ 2018-12-18T12:39:50+08:00 ] 127.0.0.1 /api/search/integrate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+SQL: SHOW COLUMNS FROM `icpnt_navcategory` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `icpnt_navcategory` WHERE `navcate_name` LIKE '%橱柜%'  [ RunTime:0.0078s ]
+NOTIC: [8] Undefined index: pid /var/www/html/jiaju2/Application/Api/Controller/SearchController.class.php 第 103 行.
+SQL: SELECT * FROM `icpnt_navcategory` WHERE ( navcate_pid=90 )  [ RunTime:0.0079s ]
+SQL: SHOW COLUMNS FROM `icpnt_product` [ RunTime:0.0080s ]
+SQL: SELECT p.id,`product_name`,`productimage_url`,`price`,`original_price`,`product_djprice`,`product_brand`,`product_type` FROM icpnt_product p INNER JOIN icpnt_productimage as i ON p.id = i.product_id left join icpnt_producttype1 as t ON p.id = t.product_id left join icpnt_productattr1 as a ON t.id = a.attrtype_id left join icpnt_business as b ON p.business_id = b.id  WHERE (  `is_thumb` = 1 ) OR ( `product_name` LIKE '%橱柜%' OR `product_brand` LIKE '%橱柜%' OR `business_name` LIKE '%橱柜%' ) OR ( is_thumb=1 ) GROUP BY p.id ORDER BY p.id desc LIMIT 0,10   [ RunTime:0.1069s ]
+
+[ 2018-12-18T12:41:51+08:00 ] 127.0.0.1 /api/search/integrate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000103s ]
+SQL: SHOW COLUMNS FROM `icpnt_navcategory` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `icpnt_navcategory` WHERE `navcate_name` LIKE '%橱柜%'  [ RunTime:0.0231s ]
+NOTIC: [8] Undefined index: pid /var/www/html/jiaju2/Application/Api/Controller/SearchController.class.php 第 103 行.
+SQL: SELECT * FROM `icpnt_navcategory` WHERE ( navcate_pid=90 )  [ RunTime:0.0232s ]
+SQL: SHOW COLUMNS FROM `icpnt_product` [ RunTime:0.0230s ]
+SQL: SELECT p.id,`product_name`,`productimage_url`,`price`,`original_price`,`product_djprice`,`product_brand`,`product_type` FROM icpnt_product p INNER JOIN icpnt_productimage as i ON p.id = i.product_id left join icpnt_producttype1 as t ON p.id = t.product_id left join icpnt_productattr1 as a ON t.id = a.attrtype_id left join icpnt_business as b ON p.business_id = b.id  WHERE (  `is_thumb` = 1 ) OR ( `product_name` LIKE '%橱柜%' OR `product_brand` LIKE '%橱柜%' OR `business_name` LIKE '%橱柜%' ) GROUP BY p.id ORDER BY p.id desc LIMIT 0,10   [ RunTime:0.0231s ]
+
+[ 2018-12-18T12:57:02+08:00 ] 127.0.0.1 /api/search/integrate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+SQL: SHOW COLUMNS FROM `icpnt_navcategory` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `icpnt_navcategory` WHERE `navcate_name` LIKE '%橱柜%'  [ RunTime:0.0086s ]
+NOTIC: [8] Undefined index: pid /var/www/html/jiaju2/Application/Api/Controller/SearchController.class.php 第 103 行.
+SQL: SELECT * FROM `icpnt_navcategory` WHERE ( navcate_pid=90 )  [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `icpnt_product` [ RunTime:0.0087s ]
+SQL: SELECT p.id,`product_name`,`productimage_url`,`price`,`original_price`,`product_djprice`,`product_brand`,`product_type` FROM icpnt_product p INNER JOIN icpnt_productimage as i ON p.id = i.product_id left join icpnt_producttype1 as t ON p.id = t.product_id left join icpnt_productattr1 as a ON t.id = a.attrtype_id left join icpnt_business as b ON p.business_id = b.id  WHERE (  `category_id` IN ('90') AND `product_type` <> 3 ) OR ( `product_name` LIKE '%橱柜%' OR `product_brand` LIKE '%橱柜%' OR `business_name` LIKE '%橱柜%' ) GROUP BY p.id ORDER BY p.id desc LIMIT 0,10   [ RunTime:0.1161s ]
+
+[ 2018-12-18T13:58:25+08:00 ] 127.0.0.1 /api/search/integrate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+SQL: SHOW COLUMNS FROM `icpnt_navcategory` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `icpnt_navcategory` WHERE `navcate_name` LIKE '%橱柜%'  [ RunTime:0.0093s ]
+NOTIC: [8] Undefined index: pid /var/www/html/jiaju2/Application/Api/Controller/SearchController.class.php 第 103 行.
+SQL: SELECT * FROM `icpnt_navcategory` WHERE ( navcate_pid=90 )  [ RunTime:0.0105s ]
+SQL: SHOW COLUMNS FROM `icpnt_product` [ RunTime:0.0090s ]
+SQL: SELECT p.id,`product_name`,`productimage_url`,`price`,`original_price`,`product_djprice`,`product_brand`,`product_type` FROM icpnt_product p INNER JOIN icpnt_productimage as i ON p.id = i.product_id left join icpnt_producttype1 as t ON p.id = t.product_id left join icpnt_productattr1 as a ON t.id = a.attrtype_id left join icpnt_business as b ON p.business_id = b.id  WHERE (  `category_id` IN ('90') OR `product_type` <> 3 OR ( `product_name` LIKE '%橱柜%' OR `product_brand` LIKE '%橱柜%' OR `business_name` LIKE '%橱柜%' ) ) GROUP BY p.id ORDER BY p.id desc LIMIT 0,10   [ RunTime:0.1073s ]
+
+[ 2018-12-18T13:59:37+08:00 ] 127.0.0.1 /api/search/integrate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+SQL: SHOW COLUMNS FROM `icpnt_navcategory` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `icpnt_navcategory` WHERE `navcate_name` LIKE '%橱柜%'  [ RunTime:0.0074s ]
+NOTIC: [8] Undefined index: pid /var/www/html/jiaju2/Application/Api/Controller/SearchController.class.php 第 103 行.
+SQL: SELECT * FROM `icpnt_navcategory` WHERE ( navcate_pid=90 )  [ RunTime:0.0076s ]
+SQL: SHOW COLUMNS FROM `icpnt_product` [ RunTime:0.0077s ]
+SQL: SELECT p.id,`product_name`,`productimage_url`,`price`,`original_price`,`product_djprice`,`product_brand`,`product_type` FROM icpnt_product p INNER JOIN icpnt_productimage as i ON p.id = i.product_id left join icpnt_producttype1 as t ON p.id = t.product_id left join icpnt_productattr1 as a ON t.id = a.attrtype_id left join icpnt_business as b ON p.business_id = b.id  WHERE (  `category_id` IN ('90') OR `product_type` <> 3 OR ( `product_name` LIKE '%橱柜%' OR `product_brand` LIKE '%橱柜%' OR `business_name` LIKE '%橱柜%' ) ) AND `is_thumb` = 1 GROUP BY p.id ORDER BY p.id desc LIMIT 0,10   [ RunTime:0.0405s ]
+
+[ 2018-12-18T14:01:28+08:00 ] 127.0.0.1 /api/search/integrate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+SQL: SHOW COLUMNS FROM `icpnt_navcategory` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `icpnt_navcategory` WHERE `navcate_name` LIKE '%橱柜%'  [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: pid /var/www/html/jiaju2/Application/Api/Controller/SearchController.class.php 第 103 行.
+SQL: SELECT * FROM `icpnt_navcategory` WHERE ( navcate_pid=90 )  [ RunTime:0.0157s ]
+SQL: SHOW COLUMNS FROM `icpnt_product` [ RunTime:0.0171s ]
+SQL: SELECT p.id,`product_name`,`productimage_url`,`price`,`original_price`,`product_djprice`,`product_brand`,`product_type` FROM icpnt_product p INNER JOIN icpnt_productimage as i ON p.id = i.product_id left join icpnt_producttype1 as t ON p.id = t.product_id left join icpnt_productattr1 as a ON t.id = a.attrtype_id left join icpnt_business as b ON p.business_id = b.id  WHERE (  `category_id` IN ('90') OR `product_type` <> 3 OR ( `product_name` LIKE '%橱柜%' OR `product_brand` LIKE '%橱柜%' OR `business_name` LIKE '%橱柜%' ) ) AND `is_thumb` = 1 GROUP BY p.id ORDER BY p.id desc LIMIT 0,10   [ RunTime:0.0165s ]
+
+[ 2018-12-18T14:06:52+08:00 ] 127.0.0.1 /api/search/integrate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000114s ]
+SQL: SHOW COLUMNS FROM `icpnt_navcategory` [ RunTime:0.0169s ]
+SQL: SELECT * FROM `icpnt_navcategory` WHERE `navcate_name` LIKE '%橱柜%'  [ RunTime:0.0167s ]
+NOTIC: [8] Undefined index: pid /var/www/html/jiaju2/Application/Api/Controller/SearchController.class.php 第 103 行.
+SQL: SELECT * FROM `icpnt_navcategory` WHERE ( navcate_pid=90 )  [ RunTime:0.0171s ]
+SQL: SHOW COLUMNS FROM `icpnt_product` [ RunTime:0.0166s ]
+SQL: SELECT p.id,`product_name`,`productimage_url`,`price`,`original_price`,`product_djprice`,`product_brand`,`product_type` FROM icpnt_product p INNER JOIN icpnt_productimage as i ON p.id = i.product_id left join icpnt_producttype1 as t ON p.id = t.product_id left join icpnt_productattr1 as a ON t.id = a.attrtype_id left join icpnt_business as b ON p.business_id = b.id  WHERE (  ( `product_name` LIKE '%橱柜%' OR `product_brand` LIKE '%橱柜%' OR `business_name` LIKE '%橱柜%' ) ) AND `is_thumb` = 1 GROUP BY p.id ORDER BY p.id desc LIMIT 0,10   [ RunTime:0.0491s ]
+
+[ 2018-12-18T14:07:14+08:00 ] 127.0.0.1 /api/search/integrate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000115s ]
+SQL: SHOW COLUMNS FROM `icpnt_navcategory` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `icpnt_navcategory` WHERE `navcate_name` LIKE '%橱柜%'  [ RunTime:0.0082s ]
+NOTIC: [8] Undefined index: pid /var/www/html/jiaju2/Application/Api/Controller/SearchController.class.php 第 103 行.
+SQL: SELECT * FROM `icpnt_navcategory` WHERE ( navcate_pid=90 )  [ RunTime:0.0084s ]
+SQL: SHOW COLUMNS FROM `icpnt_product` [ RunTime:0.0090s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND `is_thumb` = 1 GROUP BY p.id ORDER BY p.id desc LIMIT 0,10' at line 1
+ [ SQL语句 ] : SELECT p.id,`product_name`,`productimage_url`,`price`,`original_price`,`product_djprice`,`product_brand`,`product_type` FROM icpnt_product p INNER JOIN icpnt_productimage as i ON p.id = i.product_id left join icpnt_producttype1 as t ON p.id = t.product_id left join icpnt_productattr1 as a ON t.id = a.attrtype_id left join icpnt_business as b ON p.business_id = b.id  WHERE (  ) AND `is_thumb` = 1 GROUP BY p.id ORDER BY p.id desc LIMIT 0,10  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND `is_thumb` = 1 GROUP BY p.id ORDER BY p.id desc LIMIT 0,10' at line 1
+ [ SQL语句 ] : SELECT p.id,`product_name`,`productimage_url`,`price`,`original_price`,`product_djprice`,`product_brand`,`product_type` FROM icpnt_product p INNER JOIN icpnt_productimage as i ON p.id = i.product_id left join icpnt_producttype1 as t ON p.id = t.product_id left join icpnt_productattr1 as a ON t.id = a.attrtype_id left join icpnt_business as b ON p.business_id = b.id  WHERE (  ) AND `is_thumb` = 1 GROUP BY p.id ORDER BY p.id desc LIMIT 0,10  
+
+[ 2018-12-18T14:15:46+08:00 ] 127.0.0.1 /api/search/integrate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000103s ]
+SQL: SHOW COLUMNS FROM `icpnt_navcategory` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `icpnt_navcategory` WHERE `navcate_name` LIKE '%橱柜%'  [ RunTime:0.0082s ]
+NOTIC: [8] Undefined index: pid /var/www/html/jiaju2/Application/Api/Controller/SearchController.class.php 第 103 行.
+SQL: SELECT * FROM `icpnt_navcategory` WHERE ( navcate_pid=90 )  [ RunTime:0.0079s ]
+SQL: SHOW COLUMNS FROM `icpnt_product` [ RunTime:0.0095s ]
+SQL: SELECT p.id,`product_name`,`productimage_url`,`price`,`original_price`,`product_djprice`,`product_brand`,`product_type` FROM icpnt_product p INNER JOIN icpnt_productimage as i ON p.id = i.product_id left join icpnt_producttype1 as t ON p.id = t.product_id left join icpnt_productattr1 as a ON t.id = a.attrtype_id left join icpnt_business as b ON p.business_id = b.id  WHERE (  `category_id` IN ('90') AND `product_type` <> 3 ) OR ( `product_name` LIKE '%橱柜%' OR `product_brand` LIKE '%橱柜%' OR `business_name` LIKE '%橱柜%' ) GROUP BY p.id ORDER BY p.id desc LIMIT 0,10   [ RunTime:0.1032s ]
+
+[ 2018-12-18T14:16:16+08:00 ] 127.0.0.1 /api/search/integrate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000265s ]
+SQL: SHOW COLUMNS FROM `icpnt_navcategory` [ RunTime:0.0142s ]
+SQL: SELECT * FROM `icpnt_navcategory` WHERE `navcate_name` LIKE '%橱柜%'  [ RunTime:0.0140s ]
+NOTIC: [8] Undefined index: pid /var/www/html/jiaju2/Application/Api/Controller/SearchController.class.php 第 103 行.
+SQL: SELECT * FROM `icpnt_navcategory` WHERE ( navcate_pid=90 )  [ RunTime:0.0151s ]
+SQL: SHOW COLUMNS FROM `icpnt_product` [ RunTime:0.0278s ]
+SQL: SELECT p.id,`product_name`,`productimage_url`,`price`,`original_price`,`product_djprice`,`product_brand`,`product_type` FROM icpnt_product p INNER JOIN icpnt_productimage as i ON p.id = i.product_id left join icpnt_producttype1 as t ON p.id = t.product_id left join icpnt_productattr1 as a ON t.id = a.attrtype_id left join icpnt_business as b ON p.business_id = b.id  WHERE (  `category_id` IN ('90') AND `product_type` <> 3 ) OR ( `product_name` LIKE '%橱柜%' OR `product_brand` LIKE '%橱柜%' OR `business_name` LIKE '%橱柜%' ) OR ( is_thumb=1 ) GROUP BY p.id ORDER BY p.id desc LIMIT 0,10   [ RunTime:0.1116s ]
+
+[ 2018-12-18T14:16:27+08:00 ] 127.0.0.1 /api/search/integrate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000093s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000291s ]
+SQL: SHOW COLUMNS FROM `icpnt_navcategory` [ RunTime:0.0144s ]
+SQL: SELECT * FROM `icpnt_navcategory` WHERE `navcate_name` LIKE '%橱柜%'  [ RunTime:0.0142s ]
+NOTIC: [8] Undefined index: pid /var/www/html/jiaju2/Application/Api/Controller/SearchController.class.php 第 103 行.
+SQL: SELECT * FROM `icpnt_navcategory` WHERE ( navcate_pid=90 )  [ RunTime:0.0138s ]
+SQL: SHOW COLUMNS FROM `icpnt_product` [ RunTime:0.0138s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND is_thumb=1 ) GROUP BY p.id ORDER BY p.id desc LIMIT 0,10' at line 1
+ [ SQL语句 ] : SELECT p.id,`product_name`,`productimage_url`,`price`,`original_price`,`product_djprice`,`product_brand`,`product_type` FROM icpnt_product p INNER JOIN icpnt_productimage as i ON p.id = i.product_id left join icpnt_producttype1 as t ON p.id = t.product_id left join icpnt_productattr1 as a ON t.id = a.attrtype_id left join icpnt_business as b ON p.business_id = b.id  WHERE (  `category_id` IN ('90') AND `product_type` <> 3 ) OR ( `product_name` LIKE '%橱柜%' OR `product_brand` LIKE '%橱柜%' OR `business_name` LIKE '%橱柜%' ) OR ( AND is_thumb=1 ) GROUP BY p.id ORDER BY p.id desc LIMIT 0,10  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND is_thumb=1 ) GROUP BY p.id ORDER BY p.id desc LIMIT 0,10' at line 1
+ [ SQL语句 ] : SELECT p.id,`product_name`,`productimage_url`,`price`,`original_price`,`product_djprice`,`product_brand`,`product_type` FROM icpnt_product p INNER JOIN icpnt_productimage as i ON p.id = i.product_id left join icpnt_producttype1 as t ON p.id = t.product_id left join icpnt_productattr1 as a ON t.id = a.attrtype_id left join icpnt_business as b ON p.business_id = b.id  WHERE (  `category_id` IN ('90') AND `product_type` <> 3 ) OR ( `product_name` LIKE '%橱柜%' OR `product_brand` LIKE '%橱柜%' OR `business_name` LIKE '%橱柜%' ) OR ( AND is_thumb=1 ) GROUP BY p.id ORDER BY p.id desc LIMIT 0,10  
+
+[ 2018-12-18T14:23:26+08:00 ] 127.0.0.1 /api/search/integrate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `icpnt_navcategory` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `icpnt_navcategory` WHERE `navcate_name` LIKE '%橱柜%'  [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: pid /var/www/html/jiaju2/Application/Api/Controller/SearchController.class.php 第 103 行.
+SQL: SELECT * FROM `icpnt_navcategory` WHERE ( navcate_pid=90 )  [ RunTime:0.0081s ]
+SQL: SHOW COLUMNS FROM `icpnt_product` [ RunTime:0.0083s ]
+SQL: SELECT p.id,`product_name`,`productimage_url`,`price`,`original_price`,`product_djprice`,`product_brand`,`product_type` FROM icpnt_product p INNER JOIN icpnt_productimage as i ON p.id = i.product_id left join icpnt_producttype1 as t ON p.id = t.product_id left join icpnt_productattr1 as a ON t.id = a.attrtype_id left join icpnt_business as b ON p.business_id = b.id  WHERE (  `category_id` IN ('90') AND `product_type` <> 3 ) GROUP BY p.id ORDER BY p.id desc LIMIT 0,10   [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: product_name|product_brand|business_name xdebug://debug-eval(1) : eval()'d code 第 1 行.
+
+[ 2018-12-18T14:24:13+08:00 ] 127.0.0.1 /api/search/integrate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+SQL: SHOW COLUMNS FROM `icpnt_navcategory` [ RunTime:0.0226s ]
+SQL: SELECT * FROM `icpnt_navcategory` WHERE `navcate_name` LIKE '%橱柜%'  [ RunTime:0.0216s ]
+NOTIC: [8] Undefined index: pid /var/www/html/jiaju2/Application/Api/Controller/SearchController.class.php 第 103 行.
+SQL: SELECT * FROM `icpnt_navcategory` WHERE ( navcate_pid=90 )  [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `icpnt_product` [ RunTime:0.0225s ]
+SQL: SELECT p.id,`product_name`,`productimage_url`,`price`,`original_price`,`product_djprice`,`product_brand`,`product_type` FROM icpnt_product p INNER JOIN icpnt_productimage as i ON p.id = i.product_id left join icpnt_producttype1 as t ON p.id = t.product_id left join icpnt_productattr1 as a ON t.id = a.attrtype_id left join icpnt_business as b ON p.business_id = b.id  WHERE (  ( `product_name` LIKE '%橱柜%' OR `product_brand` LIKE '%橱柜%' OR `business_name` LIKE '%橱柜%' ) ) GROUP BY p.id ORDER BY p.id desc LIMIT 0,10   [ RunTime:0.1180s ]
+
+[ 2018-12-18T14:24:30+08:00 ] 127.0.0.1 /api/search/integrate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000198s ]
+SQL: SHOW COLUMNS FROM `icpnt_navcategory` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `icpnt_navcategory` WHERE `navcate_name` LIKE '%橱柜%'  [ RunTime:0.0095s ]
+NOTIC: [8] Undefined index: pid /var/www/html/jiaju2/Application/Api/Controller/SearchController.class.php 第 103 行.
+SQL: SELECT * FROM `icpnt_navcategory` WHERE ( navcate_pid=90 )  [ RunTime:0.0087s ]
+SQL: SHOW COLUMNS FROM `icpnt_product` [ RunTime:0.0098s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND (  ( `product_name` LIKE '%橱柜%' OR `product_brand` LIKE '%橱柜%' OR ' at line 1
+ [ SQL语句 ] : SELECT p.id,`product_name`,`productimage_url`,`price`,`original_price`,`product_djprice`,`product_brand`,`product_type` FROM icpnt_product p INNER JOIN icpnt_productimage as i ON p.id = i.product_id left join icpnt_producttype1 as t ON p.id = t.product_id left join icpnt_productattr1 as a ON t.id = a.attrtype_id left join icpnt_business as b ON p.business_id = b.id  WHERE (  ) AND (  ( `product_name` LIKE '%橱柜%' OR `product_brand` LIKE '%橱柜%' OR `business_name` LIKE '%橱柜%' ) ) GROUP BY p.id ORDER BY p.id desc LIMIT 0,10  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND (  ( `product_name` LIKE '%橱柜%' OR `product_brand` LIKE '%橱柜%' OR ' at line 1
+ [ SQL语句 ] : SELECT p.id,`product_name`,`productimage_url`,`price`,`original_price`,`product_djprice`,`product_brand`,`product_type` FROM icpnt_product p INNER JOIN icpnt_productimage as i ON p.id = i.product_id left join icpnt_producttype1 as t ON p.id = t.product_id left join icpnt_productattr1 as a ON t.id = a.attrtype_id left join icpnt_business as b ON p.business_id = b.id  WHERE (  ) AND (  ( `product_name` LIKE '%橱柜%' OR `product_brand` LIKE '%橱柜%' OR `business_name` LIKE '%橱柜%' ) ) GROUP BY p.id ORDER BY p.id desc LIMIT 0,10  
+
+[ 2018-12-18T14:28:34+08:00 ] 127.0.0.1 /api/search/integrate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000115s ]
+SQL: SHOW COLUMNS FROM `icpnt_navcategory` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `icpnt_navcategory` WHERE `navcate_name` LIKE '%橱柜%'  [ RunTime:0.0089s ]
+NOTIC: [8] Undefined index: pid /var/www/html/jiaju2/Application/Api/Controller/SearchController.class.php 第 103 行.
+SQL: SELECT * FROM `icpnt_navcategory` WHERE ( navcate_pid=90 )  [ RunTime:0.0082s ]
+SQL: SHOW COLUMNS FROM `icpnt_product` [ RunTime:0.0086s ]
+SQL: SELECT p.id,`product_name`,`productimage_url`,`price`,`original_price`,`product_djprice`,`product_brand`,`product_type` FROM icpnt_product p INNER JOIN icpnt_productimage as i ON p.id = i.product_id left join icpnt_producttype1 as t ON p.id = t.product_id left join icpnt_productattr1 as a ON t.id = a.attrtype_id left join icpnt_business as b ON p.business_id = b.id  WHERE (  ( `product_name` LIKE '%橱柜%' OR `product_brand` LIKE '%橱柜%' OR `business_name` LIKE '%橱柜%' ) ) GROUP BY p.id ORDER BY p.id desc LIMIT 0,10   [ RunTime:0.0092s ]
+
+[ 2018-12-18T14:36:54+08:00 ] 127.0.0.1 /api/search/integrate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000196s ]
+SQL: SHOW COLUMNS FROM `icpnt_navcategory` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `icpnt_navcategory` WHERE `navcate_name` LIKE '%橱柜%'  [ RunTime:0.0094s ]
+NOTIC: [8] Undefined index: pid /var/www/html/jiaju2/Application/Api/Controller/SearchController.class.php 第 103 行.
+SQL: SELECT * FROM `icpnt_navcategory` WHERE ( navcate_pid=90 )  [ RunTime:0.0089s ]
+SQL: SHOW COLUMNS FROM `icpnt_product` [ RunTime:0.0097s ]
+SQL: SELECT p.id,`product_name`,`productimage_url`,`price`,`original_price`,`product_djprice`,`product_brand`,`product_type` FROM icpnt_product p INNER JOIN icpnt_productimage as i ON p.id = i.product_id left join icpnt_producttype1 as t ON p.id = t.product_id left join icpnt_productattr1 as a ON t.id = a.attrtype_id left join icpnt_business as b ON p.business_id = b.id  WHERE `category_id` IN ('90') AND `product_type` <> 3 AND `is_thumb` = 1 GROUP BY p.id ORDER BY p.id desc LIMIT 0,10   [ RunTime:0.0123s ]
+
+[ 2018-12-18T14:38:45+08:00 ] 127.0.0.1 /api/search/integrate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `icpnt_navcategory` [ RunTime:0.0165s ]
+SQL: SELECT * FROM `icpnt_navcategory` WHERE `navcate_name` LIKE '%都柏林%'  [ RunTime:0.0166s ]
+SQL: SHOW COLUMNS FROM `icpnt_product` [ RunTime:0.0168s ]
+SQL: SELECT p.id,`product_name`,`productimage_url`,`price`,`original_price`,`product_djprice`,`product_brand`,`product_type` FROM icpnt_product p INNER JOIN icpnt_productimage as i ON p.id = i.product_id left join icpnt_producttype1 as t ON p.id = t.product_id left join icpnt_productattr1 as a ON t.id = a.attrtype_id left join icpnt_business as b ON p.business_id = b.id  WHERE ( `product_name` LIKE '%都柏林%' OR `product_brand` LIKE '%都柏林%' OR `business_name` LIKE '%都柏林%' ) AND `product_type` <> 3 AND `is_thumb` = 1 GROUP BY p.id ORDER BY p.id desc LIMIT 0,10   [ RunTime:0.0454s ]
+
+[ 2018-12-18T14:39:25+08:00 ] 127.0.0.1 /api/search/integrate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+SQL: SHOW COLUMNS FROM `icpnt_navcategory` [ RunTime:0.0149s ]
+SQL: SELECT * FROM `icpnt_navcategory` WHERE `navcate_name` LIKE '%橱柜%'  [ RunTime:0.0149s ]
+SQL: SHOW COLUMNS FROM `icpnt_product` [ RunTime:0.0153s ]
+SQL: SELECT p.id,`product_name`,`productimage_url`,`price`,`original_price`,`product_djprice`,`product_brand`,`product_type` FROM icpnt_product p INNER JOIN icpnt_productimage as i ON p.id = i.product_id left join icpnt_producttype1 as t ON p.id = t.product_id left join icpnt_productattr1 as a ON t.id = a.attrtype_id left join icpnt_business as b ON p.business_id = b.id  WHERE `category_id` IN ('90') AND `product_type` <> 3 AND `is_thumb` = 1 GROUP BY p.id ORDER BY p.id desc LIMIT 0,10   [ RunTime:0.0149s ]
+

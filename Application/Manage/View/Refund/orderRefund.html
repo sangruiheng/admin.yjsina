@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>无标题文档</title>
+	<include file="Common:common" />
+	<load href="__PUBLIC__/css/common/rightCommon.css" />
+</head>
+
+<body>
+<!--alert弹窗Start  -->
+<div id="top-alert" class="fixed alert alert-error" style="display:none;">
+	<button class="close fixed" style="margin-top: 4px;">&times;</button>
+	<div class="alert-content">这是内容</div>
+</div>
+<!--alert弹窗end  -->
+<nav class="navbar navbar-default" role="navigation">
+	<div class="navbar-header">
+		<a class="navbar-brand" href="#">已付款订单退款管理</a>
+	</div>
+	<div>
+		<!--<button type="button" class="btn btn-danger navbar-btn listButton" onclick="deleteBanner('business')"><i class="fa fa-trash-o" aria-hidden="true"></i> 删除</button>-->
+		<!--<button type="button" class="btn btn-info navbar-btn listButton" onclick="editData('addBusiness')"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> 修改</button>-->
+		<!--<button type="button" class="btn btn-success navbar-btn listButton" onclick="openAddData('addBusiness')"><i class="fa fa-plus" aria-hidden="true"></i> 新建</button>-->
+		<form class="navbar-form navbar-right listSearch" role="search" method="get" action="__ACTION__">
+
+			<div class="form-group">
+				<input name="keyWord" type="text" class="form-control" id="keyWord" placeholder="请输入关键词进行搜索">
+			</div>
+			<button type="submit" class="btn btn-primary"><i class="fa fa-search" aria-hidden="true"></i> 搜索</button>
+		</form>
+	</div>
+</nav>
+
+<div class="list-box">
+	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+		<thead>
+		<tr>
+			<th>选择</th>
+			<th>编号</th>
+			<th>订单编号</th>
+			<th>用户</th>
+			<th>收件人</th>
+			<th>订单价格</th>
+			<th>尾款价格</th>
+			<th>订单总数</th>
+			<th>联系方式</th>
+			<!--<th>收货地址</th>-->
+			<th>申请退款时间</th>
+			<th>订单类型</th>
+			<th>订单状态</th>
+			<th>退款原因</th>
+			<th>操作</th>
+			<th>退款详情</th>
+		</tr>
+		</thead>
+		<tbody>
+		<volist name="list" id="vo">
+			<tr>
+				<td><input type="checkbox" name="del_listID" id="del_listID" data-name="multi-select" value="<{$vo.id}>" /></td>
+				<td><{$vo.id}></td>
+				<td><{$vo.order_no}></td>
+				<td><{$vo.nickName}></td>
+				<td><{$vo.snap_address.address_name}></td>
+				<td><{$vo.order_price}></td>
+				<td><{$vo.order_tailmoney}></td>
+				<td><{$vo.order_count}></td>
+				<td><{$vo.snap_address.address_mobile}></td>
+				<!--<td><{$vo.snap_address.address_city}> <{$vo.snap_address.address_detail}></td>-->
+				<td><{$vo.orefund_time}></td>
+				<td><{$vo.order_producttype}></td>
+				<td><{$vo.order_status}></td>
+				<td><button type="button" class="btn btn-info navbar-btn listButton" onclick="catRefundDetail('<{$vo.orefund_cause}>')">查看</button></td>
+				<td><a class="btn btn-success navbar-btn" href="__APP__/Order/getAllOrder?order_id=<{$vo.order_id}>" > 查看订单详情</a></td>
+				<td>
+					<if condition="($vo.orefund_type eq 1)">
+						<if condition="($vo.orefund_freight eq 0.00)">
+							<a class="btn btn-success navbar-btn" href="__APP__/Refund/updateOrderPrice?order_id=<{$vo.order_id}>&orefund_id=<{$vo.id}>" > 修改运费</a>
+						</if>
+						<if condition="($vo.orefund_freight neq 0.00)">
+							<a class="btn btn-info navbar-btn" > 运费<{$vo.orefund_freight}></a>
+						</if>
+						<a class="btn btn-success navbar-btn" href="__APP__/Refund/WxOrderRefund?order_id=<{$vo.order_id}>&orefund_id=<{$vo.id}>" > 同意</a>
+						<a class="btn btn-danger navbar-btn" href="__APP__/Refund/refundOpinion?orefund_id=<{$vo.id}>" > 不同意</a>
+						<elseif condition="($vo.orefund_type eq 2)"/>
+						<button class="btn btn-success navbar-btn" href="#" > 已同意</button>
+						<else />
+						<button class="btn btn-danger navbar-btn" href="#" > 未同意</button>
+					</if>
+				</td>
+			</tr>
+		</volist>
+		</tbody>
+	</table>
+</div>
+
+<ul class="pagination">
+	<{$page}>
+</ul>
+<script src="__PUBLIC__/js/status/status.js"></script>
+</body>
+</html>
+<script>
+    function catRefundDetail(refund_cause) {
+        // alert(refund_cause);
+        $.show({
+            title: '买家退款原因',
+            isConfirm: false,
+            content: refund_cause
+        });
+        return false;
+    }
+</script>
+
